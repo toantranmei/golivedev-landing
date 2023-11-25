@@ -111,8 +111,8 @@ useHead({
                       style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
                       alt="" aria-hidden="true"
                       src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%27100%27/%3e"></span><img
-                    alt="Albert Tran"
-                    src="https://www.ordermygear.com/wp-content/uploads/2023/03/chip-redemption-stores.png"
+                    alt="@toantran.mei, GoLiveDev CEO"
+                    src="https://images.pond5.com/green-screen-green-background-green-footage-088768531_iconl.jpeg"
                     decoding="async"
                     data-nimg="intrinsic"
                     class="css-1kjhtih-Testimonial"
@@ -123,25 +123,23 @@ useHead({
                   class="css-c6hbjh-Testimonial">
                   <p
                     class="css-1mnyko6-Testimonial">
-                    Data is the core of a
-                    business today. Yet most
-                    companies only analyze a
-                    fraction of their data, and
-                    do so inefficiently. Many
-                    relegate data science
-                    knowledge to a small group
-                    within the company.
-                    Consequently, they face an
-                    enormous skill gap that they
-                    can’t hire their way out of.
-                    This runs counter to the
-                    data transformation
-                    initiatives that most
-                    companies are going through
-                    today. Democratizing data
-                    skills and making entire
-                    organizations data fluent is
-                    where we come in.</p>
+                    Nhân lực là nhân tố cốt lõi của
+                    một doanh nghiệp. Tuy nhiên, hầu
+                    hết các doanh nghiệp đều đang
+                    đối
+                    mặt với vấn đề thiếu hụt nhân
+                    lực. Nhìn lại, chúng ta đang có
+                    một đội ngũ nhân lực ngành công
+                    nghệ thông tin hùng hậu và tiềm
+                    năng, đối lập lại là trình
+                    độ không đủ đáp ứng với nhu cầu
+                    tuyển dụng của các doanh nghiệp.
+                    Việc đào tạo ra những thế hệ
+                    nhận
+                    lực chất lượng cao, tiến sát gần
+                    tới những tiêu chuẩn tuyển dụng
+                    của doanh nghiệp là nhiệm vụ mà
+                    chúng tôi đang thực hiện.</p>
                   <footer
                     class="css-1ew903a-Testimonial">
                     @toantran.mei, GoLiveDev
@@ -198,32 +196,33 @@ useHead({
         <div class="css-1st17y-StatsCard">
           <div class="css-3de1js-StatsCard">
             <h3 class="css-umzbdm-StatsCard">
-              2,500+<span
-                class="css-lkv1do-StatsCard">Companies</span>
+              15+<span
+                class="css-lkv1do-StatsCard">Đối
+                tác việc làm</span>
             </h3>
           </div>
         </div>
         <div class="css-1st17y-StatsCard">
           <div class="css-1w4z9xn-StatsCard">
             <h3 class="css-umzbdm-StatsCard">
-              3,000<span
-                class="css-lkv1do-StatsCard">Academic
-                organizations</span></h3>
+              2<span class="css-lkv1do-StatsCard">Tổ
+                chức giáo dục</span></h3>
           </div>
         </div>
         <div class="css-1st17y-StatsCard">
           <div class="css-1q2a6n5-StatsCard">
-            <h3 class="css-umzbdm-StatsCard">13
-              million<span
-                class="css-lkv1do-StatsCard">DataCamp
-                learners</span></h3>
+            <h3 class="css-umzbdm-StatsCard">
+              50+<span
+                class="css-lkv1do-StatsCard">Người
+                học</span></h3>
           </div>
         </div>
         <div class="css-1st17y-StatsCard">
           <div class="css-jg0jj0-StatsCard">
             <h3 class="css-umzbdm-StatsCard">
-              180+<span
-                class="css-lkv1do-StatsCard">Countries</span>
+              3<span
+                class="css-lkv1do-StatsCard">Chương
+                trình học</span>
             </h3>
           </div>
         </div>
@@ -267,12 +266,12 @@ useHead({
         <div class="css-1cbu495-CoreValues">
           <div class="css-1i14p7k-CoreValues">
             <span
-              class="css-1fmv6ma-ValueLetter">D</span><span
-              class="css-ift1xc-ValueLetter">A</span><span
+              class="css-1fmv6ma-ValueLetter">T</span><span
               class="css-ift1xc-ValueLetter">T</span><span
-              class="css-ift1xc-ValueLetter">A</span><span
+              class="css-ift1xc-ValueLetter">C</span><span
+              class="css-ift1xc-ValueLetter">H</span><span
               class="css-7h01j7-ValueLetter">-</span><span
-              class="css-ift1xc-ValueLetter">C</span>
+              class="css-ift1xc-ValueLetter">H</span>
           </div>
           <div class="css-l420rp-CoreValues">
           </div>
@@ -286,12 +285,14 @@ useHead({
                   d="M3 12a1 1 0 011 1v5H2v-5a1 1 0 011-1zm6-6a1 1 0 011 1v11H8V7a1 1 0 011-1zm6-6a1 1 0 011 1v17h-2V1a1 1 0 011-1z"
                   fill-rule="evenodd"></path>
               </svg><span
-                class="css-ofi6z3-ValueCard">Data-driven
-                decision-making</span><span
-                class="css-wnxzai-ValueCard">Data
-                skills are our business. We
-                believe in making decisions
-                based on data and facts.</span>
+                class="css-ofi6z3-ValueCard">Thật
+                tâm</span><span
+                class="css-wnxzai-ValueCard">Có một
+                nghề nếu bạn không làm thật tâm, bạn
+                sẽ giết chết cả một thế hệ, cả một
+                đất nước, đó là nghề giáo, hay rộng
+                hơn là doanh nghiệp làm về
+                EdTech.</span>
             </div>
             <div class="css-kqj99j-ValueCard">
               <svg viewBox="0 0 18 18"
@@ -303,11 +304,13 @@ useHead({
                   d="M13.207 3.127c.132.477.348.856.642 1.15.295.296.675.511 1.152.644.137-.654.225-1.34.263-2.057-.718.037-1.403.125-2.057.263zm-1.914.581a10.03 10.03 0 00-3.336 2.22c-.074.074-.614.043-1.62-.094a2 2 0 00-1.683.568L2.536 8.521l3.535.707c.35.82.704 1.41 1.061 1.767.357.358.947.711 1.768 1.061l.707 3.536 2.107-2.108a2 2 0 00.565-1.702c-.143-.984-.17-1.521-.08-1.611a10.028 10.028 0 002.22-3.336c-.78-.225-1.445-.604-1.984-1.143-.538-.538-.918-1.204-1.142-1.984zm2.965 7.786a4 4 0 01-1.13 3.404l-2.107 2.108c-1.13 1.13-3.062.544-3.375-1.022l-.512-2.557c-.572-.31-1.042-.643-1.416-1.017-.374-.374-.708-.845-1.018-1.417l-2.556-.511C.577 10.168-.008 8.236 1.122 7.106L3.24 4.988a4 4 0 013.366-1.135c.216.029.406.053.569.07 2.15-1.87 4.836-2.89 7.984-3.057A2 2 0 0117.26 2.97c-.166 3.156-1.192 5.848-3.072 8.001.017.15.04.326.07.524zM8.9 9.228a1.5 1.5 0 112.121-2.122A1.5 1.5 0 018.9 9.228zM3.764 11.82c.242.511.598 1.002 1.07 1.474.471.47.963.828 1.475 1.07l.16 1.338a.5.5 0 01-.789.465l-1.367-.982c-1.217.753-1.956 1.012-2.217.775-.261-.237-.053-1.017.624-2.338l-.806-1.19a.5.5 0 01.473-.776l1.377.164z">
                 </path>
               </svg><span
-                class="css-ofi6z3-ValueCard">Action</span><span
-                class="css-wnxzai-ValueCard">We
-                are a fast-moving company that
-                understands the importance of
-                taking action.</span>
+                class="css-ofi6z3-ValueCard">Thực
+                tế</span><span
+                class="css-wnxzai-ValueCard">Nếu chỉ
+                đào tạo về kiến thức mà không có
+                kinh nghiệm thực tế, sự trải nghiệm,
+                bạn đang đào tạo ra một thế hệ không
+                khác gì máy móc là mấy.</span>
             </div>
             <div class="css-kqj99j-ValueCard">
               <svg viewBox="0 0 49 48" fill="none"
@@ -321,11 +324,14 @@ useHead({
                   stroke="currentColor"
                   stroke-width="4.44"></path>
               </svg><span
-                class="css-ofi6z3-ValueCard">Transparency</span><span
-                class="css-wnxzai-ValueCard">We
-                believe that being transparent
-                leads to improvement and
-                success.</span>
+                class="css-ofi6z3-ValueCard">Cam
+                kết</span><span
+                class="css-wnxzai-ValueCard">Cam kết
+                với chính đội ngũ, lớn hơn là cam
+                kết với những học viên - những khách
+                hàng đặt sự tin tưởng ở GoLiveDev,
+                đào tạo ra đúng với những gì đã cam
+                kết.</span>
             </div>
             <div class="css-kqj99j-ValueCard">
               <svg viewBox="0 0 18 18"
@@ -336,11 +342,15 @@ useHead({
                   d="M5 4v5h9V4H5zm0 7v6a1 1 0 01-2 0V1a1 1 0 112 0v1h9a2 2 0 012 2v5a2 2 0 01-2 2H5z"
                   fill-rule="evenodd"></path>
               </svg><span
-                class="css-ofi6z3-ValueCard">Act
-                like an owner</span><span
-                class="css-wnxzai-ValueCard">We
-                take initiative and embrace
-                accountability.</span>
+                class="css-ofi6z3-ValueCard">Học
+                hỏi</span><span
+                class="css-wnxzai-ValueCard">Là
+                doanh nghiệp về đào tạo, nhưng
+                GoLiveDev luôn theo đuổi việc “không
+                ngừng học hỏi”, tìm ra các phương
+                pháp mới, yếu tố mới, sự sáng tạo
+                mới giúp các học viên có được kiến
+                thức phù hợp và thực tế nhất.</span>
             </div>
             <div class="css-kqj99j-ValueCard">
               <svg viewBox="0 0 18 18"
@@ -351,12 +361,15 @@ useHead({
                   d="M9 17v-5a1 1 0 00-1-1H4a1 1 0 00-1 1v5c0 .667-.333 1-1 1s-1-.333-1-1v-5a3 3 0 013-3h4a3 3 0 013 3v5c0 .667-.333 1-1 1-.666 0-1-.333-1-1zm6 0v-3a1 1 0 00-1-1h-1c-.667 0-1-.333-1-1s.333-1 1-1h1a3 3 0 013 3v3c0 .667-.333 1-1 1-.666 0-1-.333-1-1zM6 6a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8zm8 0a1 1 0 100-2 1 1 0 000 2zm0 2a3 3 0 110-6 3 3 0 010 6z"
                   fill-rule="evenodd"></path>
               </svg><span
-                class="css-ofi6z3-ValueCard">Customer
-                focused</span><span
-                class="css-wnxzai-ValueCard">We
-                prioritize meeting learners and
-                members needs above everything
-                else.</span>
+                class="css-ofi6z3-ValueCard">Hành
+                động</span><span
+                class="css-wnxzai-ValueCard">Hành
+                động ở GoLiveDev được khuyến khích,
+                dám hành động. Để có được sự thực tế
+                trong đào tạo luôn cần sự học hỏi và
+                quan trọng kèm theo đó là dám thay
+                đổi, hành động để phát triển, hành
+                động để tạo ra sự khác biệt.</span>
             </div>
           </div>
         </div>
@@ -385,34 +398,33 @@ useHead({
     <div class="css-z0dlwj-AboutPage">
       <div class="css-1t3owwo-Box">
         <h2 class="css-gqyrb8-AboutPage">
-          Supporting <span>data education for
-            all</span></h2>
-        <p class="css-1de683n-AboutPage">At
-          DataCamp, we believe everyone deserves
-          access to high-quality education and
-          data skill development for a more
-          secure future. As part of our mission
-          to democratize data skills for
-          everyone, we have always provided
-          free, unlimited access to DataCamp for
-          Classrooms for instructors and their
-          students, serving more than 350,000
-          students around the world. We've also
-          partnered with more than 120 nonprofit
-          organizations to give 25,000 free
-          DataCamp subscriptions to communities
-          that need them most.</p>
+          Giáo dục <span>là dành cho tất cả mọi
+            người</span></h2>
+        <p class="css-1de683n-AboutPage">Tại
+          GoLiveDev, chúng tôi tin rằng mọi người
+          đều xứng đáng có quyền được học tập! Theo
+          đó là
+          phát
+          triển những kỹ năng xung quanh kiến thức
+          chuyên môn. Như một phần sứ mệnh của chúng
+          tôi, đào tạo ra những thế hệ nhân lực chất
+          lượng, chúng tôi cung cấp một cách
+          thức học tập miễn phí và không giới hạn
+          qua chương trình "GoLiveDev For
+          Classrooms" cho giáo viên và học sinh của
+          họ, những người thực sự gặp khó khăn và
+          muốn
+          tiếp cận giáo dục.</p>
       </div>
     </div>
     <div class="css-17c93p5-AboutPage">
       <h2 class="css-1xrtypp-AboutPage">Tham gia
-        cùng chúng tôi</h2><a href="/careers"
+        cùng chúng tôi</h2><a href="#"
         class="css-1g0zlof-AboutPage"><span
           class="css-u8ltki-ButtonInternal">Tìm
-          công việc phù hợp</span></a><a
-        href="/create"
+          công việc phù hợp</span></a><a href="#"
         class="css-ld7pdg-AboutPage">Bạn muốn trở
-        thành giang viên của GoLiveDev?</a>
+        thành giảng viên của GoLiveDev?</a>
       <div aria-hidden="true"
         class="ie-vsWrapper ie-vsWrapper css-exd4l8-AboutPage">
         <svg height="171" width="1270"
@@ -434,19 +446,15 @@ useHead({
       <div class="css-uc595h-BusinessCTA">
         <div class="css-9k6a9v-BusinessCTA">
           <p class="css-xr1hwa-BusinessCTA">
-            Loved by learners at thousands of
-            companies</p>
+            Được quan tâm bởi các doanh nghiệp</p>
           <h2 class="css-1l5n4mp-BusinessCTA">
-            Skill up at scale. Data training
-            designed for your business.</h2>
-          <p class="css-wqfqd6-BusinessCTA">Join
-            2,500+ companies and 80% of the
-            Fortune 1000 who use DataCamp to
-            upskill their teams.</p><a
-            href="/business"
-            class="css-c4vz5q-ButtonInternal"><span
-              class="css-u8ltki-ButtonInternal">Learn
-              More</span></a>
+            Gia tăng cơ hội chọn môi trường làm việc
+            sau đào tạo.</h2>
+          <p class="css-wqfqd6-BusinessCTA">
+            GoLiveDev thể hiện cam kết rất mạnh về
+            chất lượng đào tạo thông qua một bản hợp
+            đồng ký kết trực tiếp với học viên ngay
+            từ lúc nhập học.</p>
         </div>
         <article class="css-ycegee-BusinessCTA">
           <div
@@ -515,37 +523,570 @@ useHead({
         </article>
       </div>
     </div>
-    <div class="css-clhvrg-AboutPage">
-      <h2 class="css-1oi6jn9-AboutPage">Our
-        offices</h2>
-      <div class="css-zhpn5u-AboutPage">
-        <div class="css-qnw2sv-AboutPage">
-          <p class="css-89ubip-AboutPage">
-            DataCamp, Inc.</p><span
-            class="css-10bkmjn-Box">
-            <address><strong>New York,
-                USA</strong><br>Empire State
-              Building<br>350 5th Ave, Floor
-              77<br>New York, NY 10118</address>
-          </span>
-        </div>
-        <div class="css-qnw2sv-AboutPage">
-          <p class="css-89ubip-AboutPage">
-            DataCamp Belgium BV</p><span
-            class="css-10bkmjn-Box">
-            <address><strong>Leuven,
-                Be</strong><br>Martelarenlaan
-              38<br>3010 Kessel-Lo</address>
-          </span>
-        </div>
-        <div class="css-qnw2sv-AboutPage">
-          <p class="css-89ubip-AboutPage">Data
-            Science Central UK Limited</p><span
-            class="css-10bkmjn-Box">
-            <address><strong>London,
-                UK</strong><br>175-185 Grays Inn
-              Road<br>London WC1X 8UE</address>
-          </span>
+    <div id="main">
+      <header class="css-x87f1w">
+        <h1 class="css-1ur2rgz">Đội ngũ của
+          GoLiveDev</h1>
+        <div class="ie-vsWrapper css-1yr8ezy"><svg
+            height="124" width="736"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" class="css-hxcjrr">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M456 93h140V31H456z"
+                fill="#fffbf3"></path>
+              <path d="M0 93h596V31H0z"
+                fill="#fffbf3"></path>
+              <g fill="#7933ff">
+                <path
+                  d="M0 93h596V62H0zM0 124h596V93H0z">
+                </path>
+              </g>
+              <g fill="#02ee61">
+                <path
+                  d="M596 62h140V31H596zM0 31h596V0H0z">
+                </path>
+              </g>
+            </g>
+            -1y
+          </svg><svg height="124" width="744"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" class="css-1mfly0h">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M744 31H140v62h604z"
+                fill="#fffbf3"></path>
+              <path
+                d="M140 62H0v31h140zM744 93H140v31h604z"
+                fill="#02ee61"></path>
+              <path d="M744 0H140v62h604z"
+                fill="#7933ff"></path>
+            </g>
+          </svg></div>
+      </header>
+      <div class="css-1246nfb">
+        <div class="css-2n9l76">
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Trần Tiến
+                  Đạt</strong>
+                <p class="css-nsihx3">Chief
+                  Executive Officer</p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="~/assets/images/tran-tien-dat-ceo.jpg"
+                decoding="async" data-nimg="fixed"
+                class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Trần Quốc
+                  Toản</strong>
+                <p class="css-nsihx3">Chief
+                  Executive Officer</p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="" decoding="async"
+                data-nimg="fixed" class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Tôn Bình
+                  Tĩnh</strong>
+                <p class="css-nsihx3">Chief
+                  Executive Officer</p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="~/assets/images/ton-binh-tinh-ceo.jpeg"
+                decoding="async" data-nimg="fixed"
+                class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Nguyễn Thái
+                  Học</strong>
+                <p class="css-nsihx3">Head Of
+                  Instructor</p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="~/assets/images/nguyen-thai-hoc-hi.jpg"
+                decoding="async" data-nimg="fixed"
+                class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Lê Duy
+                  Khánh</strong>
+                <p class="css-nsihx3">Head Of
+                  Product</p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="" decoding="async"
+                data-nimg="fixed" class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Đào Văn
+                  Dũng</strong>
+                <p class="css-nsihx3">Head Of
+                  Social Media</p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="" decoding="async"
+                data-nimg="fixed" class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Nguyễn Công
+                  Khanh</strong>
+                <p class="css-nsihx3">Technical
+                  Manager
+                </p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="" decoding="async"
+                data-nimg="fixed" class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Hoàng Văn
+                  Tiến</strong>
+                <p class="css-nsihx3">Technical
+                  Manager
+                </p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="" decoding="async"
+                data-nimg="fixed" class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Phạm Quang
+                  Hào</strong>
+                <p class="css-nsihx3">Marketing Lead
+                </p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="" decoding="async"
+                data-nimg="fixed" class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Nguyễn Thùy
+                  Linh</strong>
+                <p class="css-nsihx3">Instructor
+                </p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="~/assets/images/nguyen-thuy-linh-ins.png"
+                decoding="async" data-nimg="fixed"
+                class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Nguyễn
+                  Phượng</strong>
+                <p class="css-nsihx3">Instructor
+                </p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="" decoding="async"
+                data-nimg="fixed" class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Phạm Thanh
+                  Huyền</strong>
+                <p class="css-nsihx3">Instructor
+                </p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="~/assets/images/pham-thanh-huyen-des.png"
+                decoding="async" data-nimg="fixed"
+                class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Lê Văn
+                  Duy</strong>
+                <p class="css-nsihx3">Content
+                  Creator
+                </p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="" decoding="async"
+                data-nimg="fixed" class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Đoàn Khánh
+                  Huyền</strong>
+                <p class="css-nsihx3">Content
+                  Creator
+                </p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="~/assets/images/doanh-khanh-huyen-cc.jpg"
+                decoding="async" data-nimg="fixed"
+                class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Nguyễn Anh
+                  Tuấn</strong>
+                <p class="css-nsihx3">Content
+                  Creator
+                </p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="" decoding="async"
+                data-nimg="fixed" class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Ma Hữu
+                  Dự</strong>
+                <p class="css-nsihx3">Sub
+                  Instructor
+                </p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="" decoding="async"
+                data-nimg="fixed" class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
+          <a href="#" class="css-phmvkp">
+            <div class="css-vo63oz">
+              <div class="css-1fbf9km"><strong
+                  class="css-1do7sju">Phùng Đức
+                  Dũng</strong>
+                <p class="css-nsihx3">Sub
+                  Instructor
+                </p>
+                <div class="css-ltj8v9"><svg
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17" height="17">
+                    <path
+                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
+                    </path>
+                    <path
+                      d="M.13.13h15.74v15.74H.13z"
+                      fill="none"
+                      fill-rule="evenodd"></path>
+                  </svg><span
+                    class="css-l3synv">LinkedIn</span>
+                </div><button class="css-8gnmw0"
+                  type="button"><span
+                    class="css-12yghq1">Portfolio</span></button>
+              </div>
+            </div><span
+              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
+                src="" decoding="async"
+                data-nimg="fixed" class="css-afesvu"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
+          </a>
         </div>
       </div>
     </div>
@@ -2231,7 +2772,7 @@ body {
   max-width: container;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 830px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -4569,7 +5110,7 @@ body {
   display: flex;
   justify-content: center;
   max-height: 0;
-  opacity: 0.25;
+  opacity: 0;
   overflow: hidden;
   transition: max-height 0.5s cubic-bezier(0.77, 0, 0.175, 1);
   text-decoration: none;
@@ -4771,5 +5312,445 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
+}
+
+/*! CSS Used from: https://www.datacamp.com/_next/static/css/f002fb689e48bb62.css */
+h1,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  background: transparent;
+  box-shadow: none;
+  border: 0;
+}
+
+button,
+button>span {
+  font-family: inherit;
+}
+
+@media (prefers-reduced-motion:reduce) {
+  * {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (-ms-high-contrast:active),
+(-ms-high-contrast:none) {
+  .ie-vsWrapper {
+    display: none !important;
+  }
+}
+
+/*! CSS Used from: Embedded */
+* {
+  box-sizing: border-box;
+}
+
+/*! CSS Used from: Embedded */
+.css-x87f1w {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #05192d;
+  position: relative;
+}
+
+/*! CSS Used from: Embedded */
+.css-1ur2rgz {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.05;
+  margin: 0;
+  color: #fffbf3;
+  padding-bottom: 250px;
+  padding-top: 64px;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1ur2rgz {
+    font-size: 3rem;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1yr8ezy {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: -62px;
+  display: none;
+  height: 124px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1yr8ezy {
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-hxcjrr {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .css-hxcjrr {
+    margin-right: 460px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .css-hxcjrr {
+    margin-right: 618px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1mfly0h {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transform: translateY(-31px);
+  -moz-transform: translateY(-31px);
+  -ms-transform: translateY(-31px);
+  transform: translateY(-31px);
+}
+
+@media screen and (min-width: 992px) {
+  .css-1mfly0h {
+    margin-left: 460px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .css-1mfly0h {
+    margin-left: 618px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1246nfb {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: container;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1172px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: -186px;
+}
+
+/*! CSS Used from: Embedded */
+.css-2n9l76 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 64px;
+}
+
+/*! CSS Used from: Embedded */
+.css-phmvkp {
+  background-color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  width: 267px;
+  height: 267px;
+  border-radius: 4px;
+  margin: 8px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #e5e1da;
+}
+
+.css-phmvkp:hover>div,
+.css-phmvkp:active>div,
+.css-phmvkp:focus>div {
+  background-color: rgba(12, 22, 38, 0.8);
+}
+
+.css-phmvkp:hover>div div,
+.css-phmvkp:active>div div,
+.css-phmvkp:focus>div div {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/*! CSS Used from: Embedded */
+.css-vo63oz {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: linear-gradient(to top, #0c1626 0%, rgba(0, 0, 0, 0) 200px, rgba(0, 0, 0, 0) 100%);
+  border-radius: 4px;
+  bottom: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  left: 8px;
+  padding-bottom: 24px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  -webkit-transition: background-image 0.3s;
+  transition: background-image 0.3s;
+  width: 250px;
+  z-index: 10;
+}
+
+/*! CSS Used from: Embedded */
+.css-1fbf9km {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  text-align: center;
+  -webkit-transform: translateY(90px);
+  -moz-transform: translateY(90px);
+  -ms-transform: translateY(90px);
+  transform: translateY(90px);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+/*! CSS Used from: Embedded */
+.css-1do7sju {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-top: 0;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/*! CSS Used from: Embedded */
+.css-nsihx3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0;
+  color: #ffffff;
+}
+
+/*! CSS Used from: Embedded */
+.css-ltj8v9 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-top: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+/*! CSS Used from: Embedded */
+.css-l3synv {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-left: 8px;
+}
+
+/*! CSS Used from: Embedded */
+.css-8gnmw0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: "Be Vietnam Pro", Arial, sans-serif;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: background-color 125ms ease-out;
+  transition: background-color 125ms ease-out;
+  cursor: pointer;
+  height: 36px;
+  min-width: 36px;
+  width: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+}
+
+.css-8gnmw0::after {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: -4px;
+  border-radius: 6px;
+  pointer-events: none;
+  -webkit-transition: box-shadow 125ms ease-out;
+  transition: box-shadow 125ms ease-out;
+}
+
+.css-8gnmw0:hover:not(:disabled) {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.css-8gnmw0:active:not(:disabled) {
+  background-color: transparent;
+}
+
+.css-8gnmw0:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+/*! CSS Used from: Embedded */
+.css-12yghq1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/*! CSS Used from: Embedded */
+.css-afesvu {
+  border-radius: 4px;
+}
+
+/*! CSS Used from: Embedded */
+.css-12yghq1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 </style>
