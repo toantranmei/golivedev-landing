@@ -49,5 +49,7 @@ export default defineNuxtConfig({
       },
     ],
     "@nuxtjs/robots",
+    'nuxt-swiper'
   ],
+  
 });
