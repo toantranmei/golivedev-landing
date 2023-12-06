@@ -7,7 +7,13 @@ definePageMeta({
 })
 
 useHead({
-  title: 'Giới thiệu GoLiveDev - Hệ thống đào tạo lập trình sáng tạo',
+  title: 'Xây dựng sự nghiệp tại GoLiveDev',
+  meta: [
+    {
+      name: 'description',
+      content: 'Giúp chúng tôi định hình lại tương lai của giáo dục? Chúng tôi luôn tìm kiếm những người tuyệt vời!',
+    },
+  ],
 })
 
 const swiper = ref();
@@ -60,13 +66,20 @@ const slides = ref([
     <header class="css-1cffze-Careers">
       <div class="css-yffiqb-Careers">
         <div class="css-rqrkyj-Careers">
-          <h1 class="css-ff3gw1-Careers">Let's build something great together</h1>
-          <p class="css-140tb7a-Careers">We're on a mission to make data skills accessible to everyone.</p>
-          <div class="css-51zwuu-Careers"><a href="/jobs" class="css-32hd8k-ButtonInternal"><span
-                class="css-u8ltki-ButtonInternal">Các vị trí tuyển dụng</span></a><a
+          <h1 class="css-ff3gw1-Careers">Xây dựng sự nghiệp tại GoLiveDev</h1>
+          <p class="css-140tb7a-Careers">Chúng tôi đang thực hiện sứ mệnh giúp mọi người có thể tiếp cận đến công nghệ thông tin.</p>
+          <div class="css-51zwuu-Careers">
+            <router-link to="/jobs" class="css-32hd8k-ButtonInternal"><span
+              class="css-u8ltki-ButtonInternal">Các vị trí tuyển dụng</span>
+            </router-link>
+            <a
               href="https://cdn.datacamp.com/datacamp-recruitment-process.pdf" target="_blank"
-              class="css-j0t90n-Careers"><span class="css-u8ltki-ButtonInternal">Quy trình tuyển dụng</span></a></div><a
-            href="/create" class="css-vqc0g4-Careers">Trở thành giảng viên cho Golivedev?</a>
+              class="css-j0t90n-Careers"
+            >
+              <span class="css-u8ltki-ButtonInternal">Quy trình tuyển dụng</span>
+            </a>
+          </div>
+          <router-link to="/jobs" class="css-vqc0g4-Careers">Trở thành giảng viên cho Golivedev?</router-link>
         </div>
       </div>
       <div aria-hidden="true" class="ie-vsWrapper ie-vsWrapper css-1a7purf-Careers"><svg height="737" width="2705"
@@ -85,16 +98,12 @@ const slides = ref([
     </header>
     <main>
       <section class="css-pvoait-Careers">
-        <h2 class="css-1wj0fzo-Careers">Help everyone grow their data skills</h2>
+        <h2 class="css-1wj0fzo-Careers">Giúp mọi người tiếp cận được với công nghệ thông tin</h2>
         <div class="css-j857ti-Careers">
-          <p class="css-10bkmjn-Box">We're building the world's best platform to build data skills online. Data skills
-            aren't just for technical roles anymore—data drives everything, which means we all need to become data
-            fluent to succeed in our jobs. DataCamp empowers everyone to learn the data skills they need at their own
-            pace, from data science and machine learning to non-coding data concepts.</p>
-          <p class="css-11sy3qk-Careers">Being the global leader in data education means starting with a super
-            talented team. We're a smart, curious, and driven team dedicated to improving the way people learn. And we
-            love learning from each other—DataCamp's diverse team has backgrounds in education, data science, design,
-            biology, linguistics, engineering, and more.</p>
+          <p class="css-10bkmjn-Box">Chúng tôi đang xây dựng nền tảng giáo dục về công nghệ thông tin. Kỹ năng công nghệ thông tin không chỉ dành cho vai trò kĩ thuật nữa - công nghệ thông tin hiện hành ở mọi nơi, trong mọi thứ, có nghĩa là tất cả chúng đều cần biết đến về nó.</p>
+          <p class="css-11sy3qk-Careers">
+            Trở thành Golivedever là bạn đang bắt đầu sự nghiệp cùng 1 team thực sự tài năng. Chúng tôi tận tâm, chú trọng đến cách người học học, và yêu thích việc học hỏi từ những thành viên trong team.
+          </p>
         </div>
       </section>
       <div aria-hidden="true" class="ie-vsWrapper ie-vsWrapper css-aa2c4f-Careers"><svg height="82" width="505"
@@ -142,8 +151,8 @@ const slides = ref([
                 >
                   <li :data-index="index" aria-hidden="false"
                     class="react-multi-carousel-item react-multi-carousel-item--active "
-                    style="flex: 1 1 auto; position: relative;"><a
-                      :href="slide.link"
+                    style="flex: 1 1 auto; position: relative;"><router-link
+                      :to="slide.link"
                       rel="noopener" target="_blank" class="css-1teal8m">
                       <div class="css-qxy6xk">
                         <div class="css-6s6989">
@@ -164,7 +173,7 @@ const slides = ref([
                           </div>
                         </div>
                       </div>
-                    </a></li>
+                    </router-link></li>
                 </SwiperSlide>
                 <!-- useSwiper() within a swiper instance -->
                 <!-- <SwiperControls /> -->
@@ -271,8 +280,8 @@ const slides = ref([
       </section>
       <section class="css-pyxk4w-CtaSection">
         <h2 class="css-194qykg-CtaSection">Tham gia cùng chúng tôi</h2>
-        <div class="css-1jxpia2-CtaSection"><a href="/jobs" class="css-vqqqnu-CtaSection"><span
-              class="css-u8ltki-ButtonInternal">Các vị trí tuyển dụng</span></a><a
+        <div class="css-1jxpia2-CtaSection"><router-link to="/jobs" class="css-vqqqnu-CtaSection"><span
+              class="css-u8ltki-ButtonInternal">Các vị trí tuyển dụng</span></router-link><a
             href="https://cdn.datacamp.com/datacamp-recruitment-process.pdf" target="_blank"
             class="css-17heick-CtaSection"><span class="css-u8ltki-ButtonInternal">Quy trình tuyển dụng</span></a></div>
       </section>

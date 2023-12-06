@@ -6,12 +6,17 @@ definePageMeta({
 })
 
 useHead({
-  title: 'Giới thiệu GoLiveDev - Hệ thống đào tạo lập trình sáng tạo',
+  title: 'Các vị trí tuyển dụng',
+  meta: [
+    {
+      name: 'description',
+      content: 'Giúp chúng tôi định hình lại tương lai của giáo dục? Chúng tôi luôn tìm kiếm những người tuyệt vời!',
+    },
+  ],
 })
 const typesOfWork = ref('all')
 
 const { data: works } = await useFetch('/api/jobs')
-console.log(works);
 
 </script>
 
@@ -109,14 +114,14 @@ console.log(works);
         </div>
       </section>
     </main>
-    <section class="css-pyxk4w-CtaSection">
+    <!-- <section class="css-pyxk4w-CtaSection">
       <h2 class="css-2iapjn-CtaSection">Không tìm được công việc phù hợp?</h2>
       <div class="css-1jxpia2-CtaSection"><a href="https://boards.greenhouse.io/datacamp/jobs/1090498"
           class="css-vqqqnu-CtaSection"><span class="css-u8ltki-ButtonInternal">Tạo vị trí riêng</span></a><a
           href="https://cdn.datacamp.com/datacamp-recruitment-process.pdf" target="_blank"
           class="css-17heick-CtaSection"><span class="css-u8ltki-ButtonInternal">Quy trình tuyển dụng</span></a>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 <style scoped>
