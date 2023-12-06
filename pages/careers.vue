@@ -9,6 +9,7 @@ definePageMeta({
 useHead({
   title: 'Giới thiệu GoLiveDev - Hệ thống đào tạo lập trình sáng tạo',
 })
+
 const swiper = ref();
 const onSwiper = (s: any) => {
   swiper.value = s;
