@@ -4,15 +4,22 @@ import { ref } from 'vue'
 definePageMeta({
   layout: 'default-layout',
 })
-
-useHead({
-  title: 'Giới thiệu GoLiveDev - Hệ thống đào tạo lập trình sáng tạo',
-})
-
 const route = useRoute()
 
 const { data: job } = await useFetch(`/api/jobs/${route.params.slug}`)
 console.log(job);
+
+useHead({
+  title: `${job.value?.jobTitle} - GoLiveDev`,
+  meta: [
+    {
+      name: 'description',
+      content: `${job.value?.jobTitle}, Công việc Remote`,
+    },
+  ],
+})
+
+
 
 </script>
 
@@ -46,11 +53,6 @@ console.log(job);
 
           <div class="col-sm-4 text-center">
             <div data-optly-2ac7d163-fbf6-437b-a910-0cd485f40f90="">
-              <p><strong>Curious About Our Audition process?</strong></p>
-              <p>Dive into our course audition process with this insightful <a
-                  href="https://datacamp-1.wistia.com/medias/u8vr3ytbnd">video</a> and <a
-                  href="https://cdn.datacamp.com/DC%20Instructor%20Hiring%20Process.pdf">document</a>.<br><br>
-              </p>
               <!-- Mô tả công việc -->
               <p><strong>Mô tả công việc:</strong></p>
               <template v-for="content in job.jobBrief.description">
@@ -75,13 +77,16 @@ console.log(job);
                   <li v-for="contentList in content.content">{{ contentList }}</li>
                 </ul>
               </template>
-              <p><br><strong>Please Note</strong>:</p>
+              <p><br><strong>Lưu ý</strong>:</p>
               <template v-for="content in job.jobBrief.note">
                 <p v-if="content.type=='p'" v-for="contentParagraph in content.content">{{ contentParagraph }}</p>
                 <ul v-if="content.type=='li'">
                   <li v-for="contentList in content.content">{{ contentList }}</li>
                 </ul>
               </template>
+              <p><br><strong>Liên hệ</strong>:</p>
+              <p>Gửi CV qua mail: trantiendat1496@gmail.com để nhận thêm thông tin chi tiết!</p>
+              <p>Mọi thông tin vui lòng liên hệ: 033 2453 467</p>
             </div>
           </div>
 
