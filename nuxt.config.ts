@@ -38,6 +38,7 @@ export default defineNuxtConfig({
       ],
       title: "GoLiveDev - Hệ thống đào tạo lập trình sáng tạo",
     },
+    cdnURL: '/',
   },
   modules: [
     [
@@ -49,7 +50,6 @@ export default defineNuxtConfig({
       },
     ],
     "@nuxtjs/robots",
-    'nuxt-swiper'
+    'nuxt-swiper',
   ],
-  
 });
