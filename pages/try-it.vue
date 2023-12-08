@@ -13,43 +13,7 @@ useHead({
   <organisms-try-it-who-choose-us-section />
   <organisms-try-it-why-choose-us-section />
   <organisms-core-values-section />
-  <section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h1>Section dành cho mô hình đào tạo</h1>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-  </section>
+  <organisms-learning-model-section />
   <organisms-try-it-testimonials-section />
   <organisms-try-it-registration-section />
   <organisms-try-it-faq-section />
