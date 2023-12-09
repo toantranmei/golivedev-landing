@@ -248,7 +248,9 @@ useHead({
             fill="#05172C"></path>
         </svg>
       </div>
-      <core-values></core-values>
+      <ClientOnly>
+        <organisms-core-values-section />
+      </ClientOnly>
       <div aria-hidden="true"
         class="ie-vsWrapper css-1y490ay-CoreValues">
         <svg fill="none" viewBox="0 0 642 85"

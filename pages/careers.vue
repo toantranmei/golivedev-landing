@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import CoreValues from '~/components/core-values.vue';
 definePageMeta({
   layout: 'default-layout',
 })
@@ -75,7 +74,9 @@ useHead({
           </g>
         </svg>
       </div>
-      <core-values></core-values>
+      <ClientOnly>
+        <organisms-core-values-section />
+      </ClientOnly>
       <organisms-testimonials-section />
       <section class="css-1ynv9no-Careers">
         <div class="css-t5mcc9-Box">
