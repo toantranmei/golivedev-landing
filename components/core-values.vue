@@ -15,18 +15,17 @@
     </div>
     <div class="css-1cbu495-CoreValues">
       <div class="css-1i14p7k-CoreValues">
-        <span
-          class="css-1fmv6ma-ValueLetter">T</span><span
-          class="css-ift1xc-ValueLetter">T</span><span
-          class="css-ift1xc-ValueLetter">C</span><span
-          class="css-ift1xc-ValueLetter">H</span><span
-          class="css-7h01j7-ValueLetter">-</span><span
-          class="css-ift1xc-ValueLetter">H</span>
+        <span :class="[current === 1 ? 'css-1fmv6ma-ValueLetter' : 'css-ift1xc-ValueLetter']" @click="currentActive(1)">T</span>
+        <span :class="[current === 2 ? 'css-1fmv6ma-ValueLetter' : 'css-ift1xc-ValueLetter']" @click="currentActive(2)">T</span>
+        <span :class="[current === 3 ? 'css-1fmv6ma-ValueLetter' : 'css-ift1xc-ValueLetter']" @click="currentActive(3)">C</span>
+        <span :class="[current === 4 ? 'css-1fmv6ma-ValueLetter' : 'css-ift1xc-ValueLetter']" @click="currentActive(4)">H</span>
+        <span class="css-7h01j7-ValueLetter" >-</span>
+        <span :class="[current === 6 ? 'css-1fmv6ma-ValueLetter' : 'css-ift1xc-ValueLetter']" @click="currentActive(6)">H</span>
       </div>
-      <div class="css-l420rp-CoreValues">
+      <div v-if="!isMobile" class="css-l420rp-CoreValues" :style="{transform: transformVertical}">
       </div>
-      <div class="css-196m72i-CoreValues">
-        <div class="css-58pd9d-ValueCard">
+      <div class="css-196m72i-CoreValues" :style="{transform}">
+        <div v-if="(isMobile && current === 1) || !isMobile " :class="[current === 1 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
           <svg viewBox="0 0 18 18"
             aria-hidden="false" height="18"
             role="img" width="18">
@@ -44,7 +43,7 @@
             hơn là doanh nghiệp làm về
             EdTech.</span>
         </div>
-        <div class="css-kqj99j-ValueCard">
+        <div v-if="(isMobile && current === 2) || !isMobile " :class="[current === 2 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
           <svg viewBox="0 0 18 18"
             aria-hidden="false" height="18"
             role="img" width="18">
@@ -62,7 +61,7 @@
             bạn đang đào tạo ra một thế hệ không
             khác gì máy móc là mấy.</span>
         </div>
-        <div class="css-kqj99j-ValueCard">
+        <div v-if="(isMobile && current === 3) || !isMobile " :class="[current === 3 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
           <svg viewBox="0 0 49 48" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path
@@ -83,7 +82,7 @@
             đào tạo ra đúng với những gì đã cam
             kết.</span>
         </div>
-        <div class="css-kqj99j-ValueCard">
+        <div v-if="(isMobile && current === 4) || !isMobile " :class="[current === 4 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
           <svg viewBox="0 0 18 18"
             aria-hidden="false" height="18"
             role="img" width="18">
@@ -102,7 +101,7 @@
             mới giúp các học viên có được kiến
             thức phù hợp và thực tế nhất.</span>
         </div>
-        <div class="css-kqj99j-ValueCard">
+        <div v-if="(isMobile && current === 6) || !isMobile " :class="[current === 6 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
           <svg viewBox="0 0 18 18"
             aria-hidden="false" height="18"
             role="img" width="18">
@@ -126,6 +125,35 @@
   </div>
 </template>
 
+<script setup lang="ts">
+const current = ref(1)
+const windowWidth = ref(window.innerWidth);
+const currentActive = (slide: number) => {
+  current.value = slide
+}
+const transformVertical = computed(() => {
+  if(current.value === 6) {
+    return `translateX(calc(50% - 200px + ${(current.value - 3)*88}px + 132px))`
+  }
+  return `translateX(calc(50% - 200px + ${(current.value - 1)*88}px))`
+})
+const transform = computed(() => {
+  if(windowWidth.value < 992) {
+    return 'none'
+  }
+  if(current.value === 6) {
+    return `translateX(calc(50% - 200px + ${(current.value - 1)*88 - (388 + 24)*current.value/2 - (current.value - 1)*194 + 132 + 184}px))`
+  }
+  return `translateX(calc(50% - 200px + ${(current.value - 1)*88 - (388 + 24)*current.value/2 - (current.value - 1)*194}px))`
+})
+const isMobile = computed(() => {
+  return windowWidth.value < 992
+})
+const handleResize = () => {
+  windowWidth.value = window.innerWidth;
+};
+window.addEventListener('resize', handleResize);
+</script>
 <style scoped>
 blockquote,
 figcaption,
@@ -1596,13 +1624,12 @@ body {
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
-  oveflow-x: hidden;
   padding-bottom: 24px;
   padding-top: 32px;
   -webkit-transform: translateX(calc(50% - 147px - 148px - 0px + 0px));
   -moz-transform: translateX(calc(50% - 147px - 148px - 0px + 0px));
   -ms-transform: translateX(calc(50% - 147px - 148px - 0px + 0px));
-  transform: translateX(calc(50% - 147px - 148px - 0px + 0px));
+  /* transform: translateX(calc(50% - 147px - 148px - 0px + 0px)); */
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
 }
@@ -1614,7 +1641,6 @@ body {
     -webkit-transform: translateX(calc(50% - 194px - 200px - 0px + 0px));
     -moz-transform: translateX(calc(50% - 194px - 200px - 0px + 0px));
     -ms-transform: translateX(calc(50% - 194px - 200px - 0px + 0px));
-    transform: translateX(calc(50% - 194px - 200px - 0px + 0px));
   }
 }
 
