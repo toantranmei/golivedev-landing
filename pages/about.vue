@@ -1089,6 +1089,7 @@ useHead({
           </a>
         </div>
       </div>
+      <organisms-redirect-to-try-it-section></organisms-redirect-to-try-it-section>
     </div>
   </div>
 </template>
@@ -3534,11 +3535,7 @@ body {
   padding-bottom: 64px;
 }
 
-@media screen and (min-width: 1200px) {
-  .css-nby3ea-DownloadAppBanner {
-    margin-bottom: 40px;
-  }
-}
+
 
 /*! CSS Used from: Embedded */
 .css-1f5kwad-DownloadAppBanner {
