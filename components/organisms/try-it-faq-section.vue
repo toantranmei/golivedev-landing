@@ -2,7 +2,6 @@
 import { onMounted } from "vue"
 
 onMounted(() => {
-  console.log(document.querySelectorAll(".css-ystmte-Question"));
   const faqList = document.querySelectorAll(".css-ystmte-Question");
   faqList.forEach((item) => {
     item.addEventListener("click", () => {
