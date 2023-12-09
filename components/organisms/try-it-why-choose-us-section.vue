@@ -76,10 +76,7 @@
                   </div>
                   <div
                     class="css-1c25l8n-ContentHighlightItem">
-                    <a href="/business/demo"
-                      class="css-cqwngu"><span
-                        class="css-12yghq1">Get
-                        Started</span></a>
+                    
                   </div>
                 </figcaption>
               </div>
@@ -117,11 +114,7 @@
                           restrictions, no
                           friction.</span></p>
                     </span></div>
-                  <div class="css-1oucqai"><a
-                      href="/business/demo"
-                      class="css-cqwngu"><span
-                        class="css-12yghq1">Book a
-                        Demo</span></a></div>
+                  
                 </figcaption>
               </div>
               <div class="figure css-1npe8w2">
@@ -195,12 +188,7 @@
                           and ask effective data
                           questions.</span></p>
                     </span></div>
-                  <div class="css-1oucqai"><a
-                      href="/tracks/career"
-                      target="_blank"
-                      class="css-cqwngu"><span
-                        class="css-12yghq1">See Our
-                        Curriculum</span></a></div>
+                  
                 </figcaption>
               </div>
             </div>

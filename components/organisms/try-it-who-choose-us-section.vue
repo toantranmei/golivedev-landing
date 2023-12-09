@@ -7,21 +7,14 @@
           <div
             class="css-9frhyf-TitlesAndButtonBlock">
             <span
-              class="css-1jccazc-ThemedText">Deepen
-              data science skills with hands-on
-              learning</span>
+              class="css-1jccazc-ThemedText">Nâng cao kĩ năng lập trình bằng thực tiễn</span>
             <h2
               class="css-1p1s8vf-TitlesAndButtonBlock">
               Buổi học dành cho ai?</h2>
             <div
               class="css-dn0kak-TitlesAndButtonBlock">
               <p class="p-margin"><span
-                  style="font-weight: 400;">DataCamp’s
-                  interactive approach enables
-                  professors to supplement teaching
-                  and students to fast-track their
-                  learning with in-demand data
-                  skills.</span></p>
+                  style="font-weight: 400;">GoLiveDev cung cấp khóa học, cùng phương pháp giảng dạy khác biệt, giúp cá nhân, tổ chức học tập và làm việc gần với thế giới thực hơn.</span></p>
             </div>
           </div>
         </div>
@@ -323,7 +316,7 @@ p {
   font-weight: 700;
   letter-spacing: -0.5px;
   line-height: 1.2;
-  margin-top: 0;
+  margin-top: 16px;
   background-color: #FFFBF3;
   color: #05192D;
   font-size: 2rem;

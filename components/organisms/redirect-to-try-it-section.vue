@@ -1,133 +1,25 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-
-definePageMeta({
-  layout: 'default-layout',
-})
-
-useHead({
-  title: 'Các vị trí tuyển dụng',
-  meta: [
-    {
-      name: 'description',
-      content: 'Giúp chúng tôi định hình lại tương lai của giáo dục? Chúng tôi luôn tìm kiếm những người tuyệt vời!',
-    },
-  ],
-})
-const typesOfWork = ref('all')
-
-const { data: works } = await useFetch('/api/jobs')
-
-</script>
-
 <template>
-  <div id="main">
-    <header class="css-xjckqs-Header">
-      <div class="css-t5mcc9-Box">
-        <h1 class="css-1m6zrmc-Home">Tham gia cùng chúng tôi</h1>
-      </div>
-    </header>
-    <main class="css-b5b9m6-Home">
-      <form class="css-1l0r44n-Home">
-        <div class="css-176sdm3-Home">
-          <h2 class="css-a5vyrr-Home">Hình thức làm việc bạn muốn?</h2>
-          <fieldset class="css-1icyc14-Home"><label class="css-vaab0e-Home">
-              <div class="css-rhor0p-Box"><input v-model="typesOfWork" value="all" type="radio" name="office-filter"
-                  class="css-1ers4sh-Box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24" fill="currentcolor" aria-hidden="true" class="css-1lm0t9q-Home">
-                  <path
-                    d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z">
-                  </path>
-                </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                  fill="currentcolor" aria-hidden="true" class="css-16bqau0-Home">
-                  <path
-                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z">
-                  </path>
-                </svg></div><span class="css-1fhmwn4-Home">All</span>
-            </label></fieldset>
-          <fieldset class="css-1icyc14-Home"><label class="css-vaab0e-Home">
-              <div class="css-rhor0p-Box"><input v-model="typesOfWork" value="Full-Time" type="radio" name="office-filter"
-                  class="css-1ers4sh-Box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24" fill="currentcolor" aria-hidden="true" class="css-1lm0t9q-Home">
-                  <path
-                    d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z">
-                  </path>
-                </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                  fill="currentcolor" aria-hidden="true" class="css-16bqau0-Home">
-                  <path
-                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z">
-                  </path>
-                </svg></div><span class="css-1fhmwn4-Home">Full-time</span>
-            </label></fieldset>
-          <fieldset class="css-1icyc14-Home"><label class="css-njad25-Home">
-              <div class="css-rhor0p-Box"><input v-model="typesOfWork" value="Part-Time" type="radio" name="office-filter"
-                  class="css-1ers4sh-Box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24" fill="currentcolor" aria-hidden="true" class="css-1lm0t9q-Home">
-                  <path
-                    d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z">
-                  </path>
-                </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                  fill="currentcolor" aria-hidden="true" class="css-16bqau0-Home">
-                  <path
-                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z">
-                  </path>
-                </svg></div><span class="css-1fhmwn4-Home">Part-time</span>
-            </label></fieldset>
-          <fieldset class="css-1icyc14-Home"><label class="css-njad25-Home">
-              <div class="css-rhor0p-Box"><input v-model="typesOfWork" value="Remote" type="radio" name="office-filter"
-                  class="css-1ers4sh-Box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24" fill="currentcolor" aria-hidden="true" class="css-1lm0t9q-Home">
-                  <path
-                    d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z">
-                  </path>
-                </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                  fill="currentcolor" aria-hidden="true" class="css-16bqau0-Home">
-                  <path
-                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z">
-                  </path>
-                </svg></div><span class="css-1fhmwn4-Home">Remote</span>
-            </label></fieldset>
-        </div>
-      </form>
-      <section>
-        <div v-for="work in works" class="css-n1dexp-Home">
-          <h2 class="css-1a86ujz-Home">{{ work.categoryName }}</h2>
-          <div class="css-1f4dhw3-Home">
-            <template v-for="job in work.jobs" :key="job.jobId">
-              <NuxtLink v-if="typesOfWork == 'all' || job.acceptedType.includes(typesOfWork)" :to="`/jobs/${job.jobSlug}`"
-                class="css-1p4f162-Home">
-                <div class="css-1wbiuxt-Home">
-                  <h3 class="css-1pxdwxe-Home">{{ job.jobTitle }} <br /> ({{ job.acceptedType.join(", ")
-                  }})</h3>
-                  <div class="css-1pci3bb-Home"><span class="css-1ue2ucy-Home"><svg viewBox="0 0 18 18" aria-hidden="true"
-                        class="css-oe1j9s-Home" height="12" role="img" width="12">
-                        <path fill="currentColor"
-                          d="M9 18c-2.911 0-8-5.993-8-10a8 8 0 1116 0c0 4.007-5.089 10-8 10zm0-2c1.728 0 6-5.032 6-8A6 6 0 103 8c0 2.968 4.272 8 6 8zm0-5a3 3 0 110-6 3 3 0 010 6zm0-2a1 1 0 100-2 1 1 0 000 2z"
-                          fill-rule="evenodd"></path>
-                      </svg><span class="css-qrl1qo-Box">{{ job.highlightType }}</span></span><span
-                      class="css-1ly99l7-Home">Apply</span>
-                  </div>
-                </div>
-              </NuxtLink>
-            </template>
-          </div>
-        </div>
-      </section>
-      
-    </main>
-    <organisms-redirect-to-try-it-section></organisms-redirect-to-try-it-section>
-    <!-- <section class="css-pyxk4w-CtaSection">
-      <h2 class="css-2iapjn-CtaSection">Không tìm được công việc phù hợp?</h2>
-      <div class="css-1jxpia2-CtaSection"><a href="https://boards.greenhouse.io/datacamp/jobs/1090498"
-          class="css-vqqqnu-CtaSection"><span class="css-u8ltki-ButtonInternal">Tạo vị trí riêng</span></a><a
-          href="https://cdn.datacamp.com/datacamp-recruitment-process.pdf" target="_blank"
-          class="css-17heick-CtaSection"><span class="css-u8ltki-ButtonInternal">Quy trình tuyển dụng</span></a>
-      </div>
-    </section> -->
+  <div class="css-nby3ea-DownloadAppBanner">
+    <h2 class="css-1f5kwad-DownloadAppBanner">
+      Trải nghiệm học tập tại GoLiveDev</h2>
+    <p class="css-126ryhc-DownloadAppBanner">
+      Bạn có thể bắt đầu với các buổi học thử
+      trước khi ra quyết định tham gia cùng chúng
+      tôi.</p>
+    <div class="css-1u0dba1"
+      style="margin-top: 1rem;">
+      <router-link to="/try-it"
+        class="css-1g0zlof-AboutPage"><span
+          class="css-u8ltki-ButtonInternal">Đăng
+          ký học thử</span></router-link>
+    </div>
   </div>
 </template>
 <style scoped>
 /*! CSS Used from: https://www.datacamp.com/_next/static/css/f002fb689e48bb62.css */
+blockquote,
+figcaption,
+figure,
 h1,
 h2,
 h3,
@@ -141,16 +33,6 @@ ul {
 ul {
   list-style: none;
   padding: 0;
-}
-
-fieldset {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-main {
-  min-height: 90vh;
 }
 
 img {
@@ -175,6 +57,13 @@ button>span {
     animation-iteration-count: 1 !important;
     transition-duration: .01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+@media (-ms-high-contrast:active),
+(-ms-high-contrast:none) {
+  .ie-vsWrapper {
+    display: none !important;
   }
 }
 
@@ -353,56 +242,6 @@ body {
 /*! CSS Used from: Embedded */
 .css-ox6aos-MegaMenu {
   margin-left: 8px;
-}
-
-/*! CSS Used from: Embedded */
-.css-u1w6zh-MegaMenu {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  color: #05192d;
-  font-weight: 700;
-  line-height: 1.5;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  display: none;
-  margin-left: 8px;
-  margin-right: 0;
-}
-
-.css-u1w6zh-MegaMenu:active,
-.css-u1w6zh-MegaMenu:focus,
-.css-u1w6zh-MegaMenu:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-}
-
-@media screen and (min-width: 1200px) {
-  .css-u1w6zh-MegaMenu {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: 42px;
-  }
-}
-
-/*! CSS Used from: Embedded */
-.css-uaatxz-HiringLink {
-  background-color: #213147;
-  border-radius: 4px;
-  color: #03ef62;
-  display: inline-block;
-  font-size: 14px;
-  padding-left: 4px;
-  padding-right: 4px;
-  text-transform: uppercase;
-  -webkit-transition: color 0.3s cubic-bezier(0.85, 0, 0.15, 1);
-  transition: color 0.3s cubic-bezier(0.85, 0, 0.15, 1);
-}
-
-.css-uaatxz-HiringLink:hover {
-  color: #65ff8f;
 }
 
 /*! CSS Used from: Embedded */
@@ -628,7 +467,443 @@ body {
 }
 
 /*! CSS Used from: Embedded */
-.css-xjckqs-Header {
+.css-4v2hry-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #05192d;
+  padding-bottom: 244px;
+  position: relative;
+  padding-top: 48px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-4v2hry-AboutPage {
+    padding-bottom: 223px;
+    padding-top: 150px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-otej1j-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin: 0 auto;
+  max-width: 910px;
+  text-align: center;
+  width: 100%;
+}
+
+/*! CSS Used from: Embedded */
+.css-1bfmlbs-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1bfmlbs-AboutPage {
+    font-size: 3.125rem;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1t07pf-AboutPage {
+  color: #7933FF;
+}
+
+/*! CSS Used from: Embedded */
+.css-8v0hcz-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1.5rem;
+  margin-top: 0;
+  color: #ffffff;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/*! CSS Used from: Embedded */
+.css-cw4b55-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.css-cw4b55-AboutPage>svg {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .css-cw4b55-AboutPage {
+    bottom: -187px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+
+/*! CSS Used from: Embedded */
+@media screen and (min-width: 992px) {
+  .css-1ffhm6w-AboutPage {
+    display: none;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-19qg88z-AboutPage {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .css-19qg88z-AboutPage {
+    display: block;
+    -webkit-transform: translateX(-340px);
+    -moz-transform: translateX(-340px);
+    -ms-transform: translateX(-340px);
+    transform: translateX(-340px);
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1p5bsj3-AboutPage {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1p5bsj3-AboutPage {
+    display: block;
+    -webkit-transform: translate(140px, 11px);
+    -moz-transform: translate(140px, 11px);
+    -ms-transform: translate(140px, 11px);
+    transform: translate(140px, 11px);
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-rqfpn9-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: container;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 160px;
+  position: relative;
+  padding-top: 64px;
+  text-align: left;
+  z-index: 10;
+}
+
+@media screen and (min-width: 992px) {
+  .css-rqfpn9-AboutPage {
+    padding-top: 130px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-k8gyg-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-k8gyg-AboutPage {
+    font-size: 2.5rem;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-10bkmjn-Box {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+/*! CSS Used from: Embedded */
+.css-z22p4o-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #05192d;
+  color: #ffffff;
+  position: relative;
+}
+
+.css-z22p4o-AboutPage footer {
+  color: #7933FF;
+}
+
+@media screen and (min-width: 992px) {
+  .css-z22p4o-AboutPage {
+    padding-top: 40px;
+  }
+}
+
+.css-z22p4o-AboutPage .forsyth_svg__p1 {
+  fill: #7933FF;
+}
+
+.css-z22p4o-AboutPage .forsyth_svg__p2 {
+  fill: #7933ff;
+}
+
+/*! CSS Used from: Embedded */
+.css-c787lg-Testimonials {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  position: relative;
+}
+
+/*! CSS Used from: Embedded */
+.css-wfca1j-Testimonials {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: container;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1172px;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+}
+
+/*! CSS Used from: Embedded */
+.css-1aatpxu-Testimonials {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+/*! CSS Used from: Embedded */
+.css-r55se8-Testimonial {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: container;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1172px;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 782px;
+}
+
+/*! CSS Used from: Embedded */
+.css-1mq1ykf-Testimonial {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.css-1mq1ykf-Testimonial::before {
+  background-color: #7933FF;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+.css-1mq1ykf-Testimonial>span {
+  -webkit-transform: translateX(-50px);
+  -moz-transform: translateX(-50px);
+  -ms-transform: translateX(-50px);
+  transform: translateX(-50px);
+}
+
+.css-1mq1ykf-Testimonial>span img {
+  width: 100px;
+}
+
+/*! CSS Used from: Embedded */
+.css-1kjhtih-Testimonial {
+  border-radius: 50%;
+  display: block;
+}
+
+/*! CSS Used from: Embedded */
+.css-c6hbjh-Testimonial {
+  margin-top: 24px;
+}
+
+/*! CSS Used from: Embedded */
+.css-1mnyko6-Testimonial {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.css-1mnyko6-Testimonial::after {
+  content: "”";
+}
+
+.css-1mnyko6-Testimonial::before {
+  content: "“";
+}
+
+/*! CSS Used from: Embedded */
+.css-1ew903a-Testimonial {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/*! CSS Used from: Embedded */
+.css-rbnyar-VsTestimonial {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: -47px;
+}
+
+.css-rbnyar-VsTestimonial>svg {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .css-rbnyar-VsTestimonial {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    top: -35px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+@media screen and (min-width: 992px) {
+  .css-1a5mo1l-VsTestimonial {
+    display: none;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-weovtx-VsTestimonial {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .css-weovtx-VsTestimonial {
+    display: block;
+    margin-right: 526px;
+    -webkit-transform: 526px;
+    -moz-transform: 526px;
+    -ms-transform: 526px;
+    transform: 526px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .css-weovtx-VsTestimonial {
+    margin-right: 0;
+    -webkit-transform: translateX(-510px);
+    -moz-transform: translateX(-510px);
+    -ms-transform: translateX(-510px);
+    transform: translateX(-510px);
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1voo7ve-VsTestimonial {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1voo7ve-VsTestimonial {
+    display: block;
+    margin-left: 156px;
+    -webkit-transform: 526px;
+    -moz-transform: 526px;
+    -ms-transform: 526px;
+    transform: 526px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .css-1voo7ve-VsTestimonial {
+    margin-left: 0;
+    -webkit-transform: translateX(384px);
+    -moz-transform: translateX(384px);
+    -ms-transform: translateX(384px);
+    transform: translateX(384px);
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-rex8ql-AboutPage {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -636,7 +911,7 @@ body {
 }
 
 /*! CSS Used from: Embedded */
-.css-t5mcc9-Box {
+.css-13cijtg-AboutPage {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -649,8 +924,85 @@ body {
   padding-right: 16px;
 }
 
+.css-13cijtg-AboutPage>* {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .css-13cijtg-AboutPage>* {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .css-13cijtg-AboutPage>*:not(:first-of-type) {
+    margin-left: 28px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .css-13cijtg-AboutPage {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 /*! CSS Used from: Embedded */
-.css-1m6zrmc-Home {
+.css-1st17y-StatsCard {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/*! CSS Used from: Embedded */
+.css-3de1js-StatsCard {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fcce0d;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-bottom: 16px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .css-3de1js-StatsCard {
+    margin-bottom: 32px;
+    min-height: 200px;
+    padding-bottom: 48px;
+    padding-top: 48px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .css-3de1js-StatsCard {
+    min-height: 187px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-umzbdm-StatsCard {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -659,450 +1011,233 @@ body {
   letter-spacing: -1px;
   line-height: 1.05;
   margin: 0;
-  color: #ffffff;
-  padding-bottom: 96px;
-  padding-top: 48px;
-  text-align: center;
+  max-width: 274px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 992px) {
-  .css-1m6zrmc-Home {
+  .css-umzbdm-StatsCard {
     font-size: 3.125rem;
   }
 }
 
-@media screen and (min-width: 992px) {
-  .css-1m6zrmc-Home {
-    padding-bottom: 128px;
-    padding-top: 80px;
-  }
-}
-
 /*! CSS Used from: Embedded */
-.css-b5b9m6-Home {
+.css-lkv1do-StatsCard {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  width: 100%;
-  max-width: container;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1172px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 32px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin-top: 0;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 16px;
 }
 
 /*! CSS Used from: Embedded */
-.css-1l0r44n-Home {
+.css-1w4z9xn-StatsCard {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  background-color: #ffffff;
-  border: 1px solid #e5e1da;
-  border-radius: 4px;
-  box-shadow: default;
-  margin-bottom: 48px;
-  margin-top: -48px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ff6ea9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-bottom: 16px;
+  padding-bottom: 24px;
+  padding-top: 24px;
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 36px;
-  padding-bottom: 36px;
-  width: 100%;
-}
-
-/*! CSS Used from: Embedded */
-.css-176sdm3-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-/*! CSS Used from: Embedded */
-.css-a5vyrr-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  font-size: 1.125rem;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
-  margin-top: 0;
-  margin-bottom: 16px;
-  margin-right: 10px;
-  width: 100%;
-}
-
-@media screen and (min-width: 992px) {
-  .css-a5vyrr-Home {
-    margin-bottom: 0;
-    width: auto;
-  }
-}
-
-/*! CSS Used from: Embedded */
-.css-1icyc14-Home {
-  margin-left: 6px;
-}
-
-/*! CSS Used from: Embedded */
-.css-vaab0e-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 12px;
-  margin-bottom: 0;
-  margin-right: 16px;
-  white-space: normal;
-  width: auto;
-}
-
-.css-vaab0e-Home>div {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-/*! CSS Used from: Embedded */
-.css-rhor0p-Box {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  min-width: -webkit-min-content;
-  min-width: -moz-min-content;
-  min-width: min-content;
-}
-
-/*! CSS Used from: Embedded */
-.css-1ers4sh-Box {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-
-/*! CSS Used from: Embedded */
-.css-1lm0t9q-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: none;
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  margin-right: 2px;
-  border-radius: 9999px;
-  color: gray;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  color: #05192D;
-  height: 14px;
-  width: 14px;
-}
-
-input:checked~.css-1lm0t9q-Home {
-  display: block;
-}
-
-input:checked~.css-1lm0t9q-Home {
-  color: #33e;
-}
-
-input:focus~.css-1lm0t9q-Home {
-  background-color: highlight;
-}
-
-input:checked~.css-1lm0t9q-Home {
-  color: #009bd8;
-}
-
-/*! CSS Used from: Embedded */
-.css-16bqau0-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: block;
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  margin-right: 2px;
-  border-radius: 9999px;
-  color: gray;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  color: #05192D;
-  height: 14px;
-  width: 14px;
-}
-
-input:checked~.css-16bqau0-Home {
-  display: none;
-}
-
-input:checked~.css-16bqau0-Home {
-  color: #33e;
-}
-
-input:focus~.css-16bqau0-Home {
-  background-color: highlight;
-}
-
-input:checked~.css-16bqau0-Home {
-  color: #009bd8;
-}
-
-/*! CSS Used from: Embedded */
-.css-1fhmwn4-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-top: 0;
-  font-weight: normal;
-}
-
-/*! CSS Used from: Embedded */
-.css-njad25-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 12px;
-  color: #05192D;
-  margin-bottom: 0;
-  margin-right: 16px;
-  white-space: normal;
-  width: auto;
-}
-
-.css-njad25-Home>div {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-/*! CSS Used from: Embedded */
-.css-n1dexp-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding-bottom: 32px;
-}
-
-/*! CSS Used from: Embedded */
-.css-1a86ujz-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  font-size: 1.125rem;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
-  margin-top: 0;
-  border-bottom: 1px solid #e5e1da;
-  margin-bottom: 4px;
-  padding-bottom: 16px;
-}
-
-/*! CSS Used from: Embedded */
-.css-1f4dhw3-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-left: -16px;
-  margin-right: -16px;
-}
-
-/*! CSS Used from: Embedded */
-.css-1p4f162-Home {
-  color: #05192D;
-  margin: 16px;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  width: 358px;
-}
-
-/*! CSS Used from: Embedded */
-.css-1wbiuxt-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  background-color: #ffffff;
-  border: 1px solid #e5e1da;
-  border-radius: 4px;
-  box-shadow: default;
-  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.77, 0, 0.175, 1);
-  transition: transform 0.3s cubic-bezier(0.77, 0, 0.175, 1);
-  box-shadow: default;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  height: 100%;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  min-height: 140px;
-  padding: 20px;
-  padding-bottom: 10px;
-}
-
-.css-1wbiuxt-Home:hover {
-  -webkit-transform: translate(0, -4px);
-  -moz-transform: translate(0, -4px);
-  -ms-transform: translate(0, -4px);
-  transform: translate(0, -4px);
-}
-
-/*! CSS Used from: Embedded */
-.css-1pxdwxe-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
-  margin-top: 0;
-  display: block;
-  margin-bottom: 16px;
-}
-
-/*! CSS Used from: Embedded */
-.css-1pci3bb-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-}
-
-/*! CSS Used from: Embedded */
-.css-1ue2ucy-Home {
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-/*! CSS Used from: Embedded */
-.css-oe1j9s-Home {
-  margin-right: 6px;
-  margin-top: 5px;
-}
-
-/*! CSS Used from: Embedded */
-.css-qrl1qo-Box {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  color: #05192D;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-/*! CSS Used from: Embedded */
-.css-1ly99l7-Home {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-top: 0;
-  color: #009bd8;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  font-weight: 700;
-  margin-left: 16px;
-}
-
-/*! CSS Used from: Embedded */
-.css-pyxk4w-CtaSection {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  background-color: #fcce0d;
-  margin-bottom: 0;
-  padding-top: 84px;
-  padding-bottom: 84px;
   text-align: center;
 }
 
 @media screen and (min-width: 992px) {
-  .css-pyxk4w-CtaSection {
-    padding-top: 104px;
-    padding-bottom: 104px;
+  .css-1w4z9xn-StatsCard {
+    margin-bottom: 32px;
+    min-height: 200px;
+    padding-bottom: 48px;
+    padding-top: 48px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .css-1w4z9xn-StatsCard {
+    min-height: 187px;
   }
 }
 
 /*! CSS Used from: Embedded */
-.css-2iapjn-CtaSection {
+.css-1q2a6n5-StatsCard {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ff931e;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-bottom: 16px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1q2a6n5-StatsCard {
+    margin-bottom: 32px;
+    min-height: 200px;
+    padding-bottom: 48px;
+    padding-top: 48px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .css-1q2a6n5-StatsCard {
+    min-height: 187px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-jg0jj0-StatsCard {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #06bdfc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-bottom: 16px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .css-jg0jj0-StatsCard {
+    margin-bottom: 32px;
+    min-height: 200px;
+    padding-bottom: 48px;
+    padding-top: 48px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .css-jg0jj0-StatsCard {
+    min-height: 187px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-10hde0v-CoreValues {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #05192d;
+  position: relative;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+/*! CSS Used from: Embedded */
+.css-1ex6t95-CoreValues {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  overflow-x: hidden;
+  top: 60px;
+}
+
+.css-1ex6t95-CoreValues>svg {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1ex6t95-CoreValues {
+    top: 30px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1q1yak2-CoreValues {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #213147;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow-x: hidden;
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1q1yak2-CoreValues {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-cn48uc-CoreValues {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  max-width: 684px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+}
+
+/*! CSS Used from: Embedded */
+.css-j0y3nz-CoreValues {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -1111,17 +1246,62 @@ input:checked~.css-16bqau0-Home {
   letter-spacing: -1px;
   line-height: 1.2;
   margin: 0;
-  margin-bottom: 16px;
+  color: #ffffff;
+  margin-bottom: 24px;
 }
 
 @media screen and (min-width: 992px) {
-  .css-2iapjn-CtaSection {
+  .css-j0y3nz-CoreValues {
     font-size: 2.5rem;
   }
 }
 
 /*! CSS Used from: Embedded */
-.css-1jxpia2-CtaSection {
+.css-6ju6k7-CoreValues {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin: 0;
+  color: #7933FF;
+}
+
+@media screen and (min-width: 992px) {
+  .css-6ju6k7-CoreValues {
+    font-size: 2.5rem;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-8dxfqt-CoreValues {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: #05192D;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+/*! CSS Used from: Embedded */
+.css-1cbu495-CoreValues {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1cbu495-CoreValues {
+    max-width: unset;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1i14p7k-CoreValues {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -1129,29 +1309,469 @@ input:checked~.css-16bqau0-Home {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  gap: 16px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
-  margin-left: 16px;
-  margin-right: 16px;
+  padding-bottom: 24px;
+  position: relative;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-@media screen and (min-width: 600px) {
-  .css-1jxpia2-CtaSection {
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    margin-left: 0;
-    margin-right: 0;
+@media screen and (min-width: 992px) {
+  .css-1i14p7k-CoreValues {
+    gap: 24px;
   }
 }
 
 /*! CSS Used from: Embedded */
-.css-vqqqnu-CtaSection {
+.css-1fmv6ma-ValueLetter {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.05;
+  margin: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #7933FF;
+  border-radius: 4px;
+  color: #05192d;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  width: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1fmv6ma-ValueLetter {
+    font-size: 3.125rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .css-1fmv6ma-ValueLetter {
+    height: 64px;
+    width: 64px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-ift1xc-ValueLetter {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.05;
+  margin: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  width: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-ift1xc-ValueLetter {
+    font-size: 3.125rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .css-ift1xc-ValueLetter {
+    height: 64px;
+    width: 64px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-7h01j7-ValueLetter {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.05;
+  margin: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 12px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-7h01j7-ValueLetter {
+    font-size: 3.125rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .css-7h01j7-ValueLetter {
+    height: 64px;
+    width: 20px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-l420rp-CoreValues {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  border-left: 2px dashed white;
+  height: 40px;
+  -webkit-transform: translateX(calc(50% - 200px + 0px));
+  -moz-transform: translateX(calc(50% - 200px + 0px));
+  -ms-transform: translateX(calc(50% - 200px + 0px));
+  transform: translateX(calc(50% - 200px + 0px));
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+/*! CSS Used from: Embedded */
+.css-196m72i-CoreValues {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  oveflow-x: hidden;
+  padding-bottom: 24px;
+  padding-top: 32px;
+  -webkit-transform: translateX(calc(50% - 147px - 148px - 0px + 0px));
+  -moz-transform: translateX(calc(50% - 147px - 148px - 0px + 0px));
+  -ms-transform: translateX(calc(50% - 147px - 148px - 0px + 0px));
+  transform: translateX(calc(50% - 147px - 148px - 0px + 0px));
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 992px) {
+  .css-196m72i-CoreValues {
+    gap: 24px;
+    padding-bottom: 0;
+    -webkit-transform: translateX(calc(50% - 194px - 200px - 0px + 0px));
+    -moz-transform: translateX(calc(50% - 194px - 200px - 0px + 0px));
+    -ms-transform: translateX(calc(50% - 194px - 200px - 0px + 0px));
+    transform: translateX(calc(50% - 194px - 200px - 0px + 0px));
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-58pd9d-ValueCard {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #7933FF;
+  cursor: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  max-width: 388px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .css-58pd9d-ValueCard {
+    height: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 388px;
+  }
+}
+
+.css-58pd9d-ValueCard span {
+  color: #ffffff;
+}
+
+.css-58pd9d-ValueCard svg {
+  height: 48px;
+  width: 48px;
+}
+
+/*! CSS Used from: Embedded */
+.css-ofi6z3-ValueCard {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-top: 24px;
+}
+
+/*! CSS Used from: Embedded */
+.css-wnxzai-ValueCard {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-top: 8px;
+}
+
+/*! CSS Used from: Embedded */
+.css-kqj99j-ValueCard {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #7933FF;
+  cursor: pointer;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  max-width: 388px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.3;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .css-kqj99j-ValueCard {
+    height: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 388px;
+  }
+}
+
+.css-kqj99j-ValueCard span {
+  color: #ffffff;
+}
+
+.css-kqj99j-ValueCard svg {
+  height: 48px;
+  width: 48px;
+}
+
+/*! CSS Used from: Embedded */
+.css-1y490ay-CoreValues {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  bottom: 72px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.css-1y490ay-CoreValues>svg {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .css-1y490ay-CoreValues {
+    bottom: 40px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-z0dlwj-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #05192d;
+  padding-bottom: 128px;
+  text-align: left;
+}
+
+@media screen and (min-width: 992px) {
+  .css-z0dlwj-AboutPage {
+    text-align: center;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1t3owwo-Box {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: container;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/*! CSS Used from: Embedded */
+.css-gqyrb8-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin: 0;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-gqyrb8-AboutPage {
+    font-size: 2.5rem;
+  }
+}
+
+.css-gqyrb8-AboutPage span {
+  color: #06bdfc;
+}
+
+/*! CSS Used from: Embedded */
+.css-1de683n-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-top: 0;
+  color: #ffffff;
+}
+
+/*! CSS Used from: Embedded */
+.css-17c93p5-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding-bottom: 164px;
+  position: relative;
+  padding-top: 128px;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .css-17c93p5-AboutPage {
+    padding-bottom: 128px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1xrtypp-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.05;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1xrtypp-AboutPage {
+    font-size: 3.125rem;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1g0zlof-AboutPage {
   position: relative;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1171,7 +1791,7 @@ input:checked~.css-16bqau0-Home {
   vertical-align: middle;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: Studio-Feixen-Sans, Arial, sans-serif;
+  font-family: "Be Vietnam Pro", Arial, sans-serif;
   font-weight: 800;
   line-height: 1;
   margin: 0;
@@ -1196,15 +1816,13 @@ input:checked~.css-16bqau0-Home {
   -ms-flex-direction: column;
   flex-direction: column;
   font-size: 16px;
-  color: #FFFFFF;
-  background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.6);
-  background-color: #05192d;
-  border: none;
-  margin-top: 8px;
+  color: #eee9f7;
+  background-color: #7933FF;
+  border-color: transparent;
+  margin-bottom: 24px;
 }
 
-.css-vqqqnu-CtaSection::after {
+.css-1g0zlof-AboutPage::after {
   content: '';
   display: block;
   position: absolute;
@@ -1220,22 +1838,17 @@ input:checked~.css-16bqau0-Home {
   transition: box-shadow 125ms ease-out;
 }
 
-.css-vqqqnu-CtaSection:hover {
-  background-color: rgba(255, 255, 255, 0.06);
+.css-1g0zlof-AboutPage:hover:not(:disabled) {
+  background-color: #6f25f7;
 }
 
-.css-vqqqnu-CtaSection:active {
-  background-color: transparent;
+.css-1g0zlof-AboutPage:active:not(:disabled) {
+  background-color: #7933FF;
 }
 
-.css-vqqqnu-CtaSection:disabled {
+.css-1g0zlof-AboutPage:disabled {
   opacity: 0.6;
   cursor: default;
-  pointer-events: none;
-}
-
-.css-vqqqnu-CtaSection:hover:not(:disabled) {
-  background-color: #213147;
 }
 
 /*! CSS Used from: Embedded */
@@ -1252,7 +1865,203 @@ input:checked~.css-16bqau0-Home {
 }
 
 /*! CSS Used from: Embedded */
-.css-17heick-CtaSection {
+.css-ld7pdg-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: #05192d;
+  font-weight: 700;
+  line-height: 1.5;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: block;
+  font-size: 1.125rem;
+}
+
+.css-ld7pdg-AboutPage:active,
+.css-ld7pdg-AboutPage:focus,
+.css-ld7pdg-AboutPage:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+/*! CSS Used from: Embedded */
+.css-exd4l8-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  bottom: -36px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  padding-right: 50%;
+}
+
+.css-exd4l8-AboutPage>svg {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.css-exd4l8-AboutPage .beekman-left_svg__p1 {
+  fill: #efebe4;
+}
+
+.css-exd4l8-AboutPage .beekman-left_svg__p2 {
+  fill: #ff931e;
+}
+
+/*! CSS Used from: Embedded */
+.css-1kbohuk-AboutPage {
+  margin-right: -160px;
+}
+
+@media screen and (min-width: 768px) {
+  .css-1kbohuk-AboutPage {
+    margin-right: 220px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .css-1kbohuk-AboutPage {
+    margin-right: 320px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .css-1kbohuk-AboutPage {
+    margin-right: 370px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-rh9j0z-BusinessCTA {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #05192d;
+  padding-top: 86px;
+  padding-bottom: 86px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-rh9j0z-BusinessCTA {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-uc595h-BusinessCTA {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: container;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1172px;
+  padding-left: 16px;
+  padding-right: 16px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 992px) {
+  .css-uc595h-BusinessCTA {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-9k6a9v-BusinessCTA {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .css-9k6a9v-BusinessCTA {
+    text-align: left;
+    width: 50%;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-xr1hwa-BusinessCTA {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #ff5400;
+  margin-bottom: 24px;
+}
+
+/*! CSS Used from: Embedded */
+.css-1l5n4mp-BusinessCTA {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin: 0;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1l5n4mp-BusinessCTA {
+    font-size: 2.5rem;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-wqfqd6-BusinessCTA {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-top: 0;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+/*! CSS Used from: Embedded */
+.css-c4vz5q-ButtonInternal {
   position: relative;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1272,7 +2081,7 @@ input:checked~.css-16bqau0-Home {
   vertical-align: middle;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: Studio-Feixen-Sans, Arial, sans-serif;
+  font-family: "Be Vietnam Pro", Arial, sans-serif;
   font-weight: 800;
   line-height: 1;
   margin: 0;
@@ -1288,23 +2097,21 @@ input:checked~.css-16bqau0-Home {
   -webkit-transition: background-color 125ms ease-out;
   transition: background-color 125ms ease-out;
   cursor: pointer;
-  height: 48px;
-  min-width: 48px;
+  height: 36px;
+  min-width: 36px;
   width: auto;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  font-size: 16px;
-  color: #05192D;
+  font-size: 14px;
+  color: #FFFFFF;
   background-color: transparent;
-  border-color: rgba(5, 25, 45, 0.6);
-  margin-left: 0;
-  margin-top: 16px;
+  border-color: rgba(255, 255, 255, 0.6);
 }
 
-.css-17heick-CtaSection::after {
+.css-c4vz5q-ButtonInternal::after {
   content: '';
   display: block;
   position: absolute;
@@ -1320,25 +2127,308 @@ input:checked~.css-16bqau0-Home {
   transition: box-shadow 125ms ease-out;
 }
 
-.css-17heick-CtaSection:hover {
-  background-color: rgba(48, 57, 105, 0.06);
+.css-c4vz5q-ButtonInternal:hover {
+  background-color: rgba(255, 255, 255, 0.06);
 }
 
-.css-17heick-CtaSection:active {
+.css-c4vz5q-ButtonInternal:active {
   background-color: transparent;
 }
 
-.css-17heick-CtaSection:disabled {
+.css-c4vz5q-ButtonInternal:disabled {
   opacity: 0.6;
   cursor: default;
   pointer-events: none;
 }
 
-@media screen and (min-width: 600px) {
-  .css-17heick-CtaSection {
-    margin-left: 16px;
-    margin-top: 8px;
+/*! CSS Used from: Embedded */
+.css-u8ltki-ButtonInternal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/*! CSS Used from: Embedded */
+.css-ycegee-BusinessCTA {
+  color: rgba(255, 255, 255, 0.65);
+  color: #ffffff;
+  max-width: 500px;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 992px) {
+  .css-ycegee-BusinessCTA {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
   }
+}
+
+.css-ycegee-BusinessCTA>div {
+  max-width: 500px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-ycegee-BusinessCTA {
+    margin-top: -48px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .css-ycegee-BusinessCTA svg {
+    margin-top: 48px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-39ns84-CompaniesMd {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+}
+
+.css-39ns84-CompaniesMd>* {
+  margin-top: 12px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  .css-39ns84-CompaniesMd>* {
+    margin-top: 21px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .css-39ns84-CompaniesMd {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .css-39ns84-CompaniesMd {
+    max-width: 430px;
+    padding-top: 8px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1yr41f9-CompaniesMd {
+  width: 74px;
+}
+
+@media screen and (min-width: 1200px) {
+  .css-1yr41f9-CompaniesMd {
+    width: 99px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1shc6iq-CompaniesMd {
+  width: 100px;
+}
+
+@media screen and (min-width: 1200px) {
+  .css-1shc6iq-CompaniesMd {
+    width: 143px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1bq3hu1-CompaniesMd {
+  width: 63px;
+}
+
+@media screen and (min-width: 1200px) {
+  .css-1bq3hu1-CompaniesMd {
+    width: 84px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-ukby4s-CompaniesMd {
+  border-color: transparent;
+  margin: 0 !important;
+  width: 100%;
+}
+
+/*! CSS Used from: Embedded */
+.css-q2rja6-CompaniesMd {
+  width: 69px;
+}
+
+@media screen and (min-width: 1200px) {
+  .css-q2rja6-CompaniesMd {
+    width: 104px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-19eze85-CompaniesMd {
+  -webkit-transform: translateY(-4px);
+  -moz-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  transform: translateY(-4px);
+  width: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .css-19eze85-CompaniesMd {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+    width: 40px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1iet20f-CompaniesMd {
+  width: 62px;
+}
+
+@media screen and (min-width: 1200px) {
+  .css-1iet20f-CompaniesMd {
+    width: 79px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-clhvrg-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: container;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1172px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .css-clhvrg-AboutPage {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-1oi6jn9-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-1oi6jn9-AboutPage {
+    font-size: 2.5rem;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-zhpn5u-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+  .css-zhpn5u-AboutPage {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-qnw2sv-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .css-qnw2sv-AboutPage {
+    margin-bottom: 0;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.css-89ubip-AboutPage {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+/*! CSS Used from: Embedded */
+.css-10bkmjn-Box {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-top: 0;
 }
 
 /*! CSS Used from: Embedded */
@@ -1427,7 +2517,6 @@ input:checked~.css-16bqau0-Home {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1656,7 +2745,7 @@ input:checked~.css-16bqau0-Home {
 .css-fkog9e a:active svg,
 .css-fkog9e a:focus svg,
 .css-fkog9e a:hover svg {
-  fill: #03ef62;
+  fill: #7933FF;
 }
 
 /*! CSS Used from: Embedded */
@@ -1776,6 +2865,43 @@ input:checked~.css-16bqau0-Home {
 }
 
 /*! CSS Used from: Embedded */
+.css-swrglv {
+  height: 66px;
+  width: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  .css-swrglv {
+    height: 139px;
+    transform: translateX(-550px);
+    width: 208px;
+  }
+}
+
+.css-76257b {
+  height: 35px;
+  transform: translateX(225px);
+}
+
+@media screen and (min-width: 600px) {
+  .css-76257b {
+    height: 85px;
+    transform: translateX(15px);
+  }
+}
+
+.css-i0hdhs {
+  height: 35px;
+  transform: translateX(290px);
+}
+
+@media screen and (min-width: 600px) {
+  .css-i0hdhs {
+    height: 85px;
+    transform: translateX(490px);
+  }
+}
+
 .css-12yghq1 {
   display: flex;
   gap: 8px;
@@ -1819,7 +2945,7 @@ input:checked~.css-16bqau0-Home {
   flex-shrink: 0;
   vertical-align: middle;
   text-decoration: none;
-  font-family: Studio-Feixen-Sans, Arial, sans-serif;
+  font-family: "Be Vietnam Pro", Arial, sans-serif;
   font-weight: 800;
   line-height: 1;
   margin: 0px 8px;
@@ -1888,7 +3014,7 @@ input:checked~.css-16bqau0-Home {
   flex-shrink: 0;
   vertical-align: middle;
   text-decoration: none;
-  font-family: Studio-Feixen-Sans, Arial, sans-serif;
+  font-family: "Be Vietnam Pro", Arial, sans-serif;
   font-weight: 800;
   line-height: 1;
   margin: 0px;
@@ -2010,7 +3136,7 @@ input:checked~.css-16bqau0-Home {
   min-width: 0px;
 }
 
-.css-1wr5rq {
+.css-uxdrkw {
   box-sizing: border-box;
   margin: 0px 8px;
   min-width: 0px;
@@ -2031,30 +3157,24 @@ input:checked~.css-16bqau0-Home {
   padding: 12px 16px;
 }
 
-.css-1wr5rq:active,
-.css-1wr5rq:focus,
-.css-1wr5rq:hover {
+.css-uxdrkw:active,
+.css-uxdrkw:focus,
+.css-uxdrkw:hover {
   background-color: rgb(33, 49, 71);
   border-radius: 4px;
 }
 
-.css-1wr5rq:focus {
+.css-uxdrkw:focus {
   outline: 0px;
 }
 
-.css-1wr5rq>span {
+.css-uxdrkw>span {
   pointer-events: none;
 }
 
 @media screen and (min-width: 768px) {
-  .css-1wr5rq {
+  .css-uxdrkw {
     margin-left: 18px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .css-1wr5rq {
-    margin-left: 0px;
   }
 }
 
@@ -2072,7 +3192,7 @@ input:checked~.css-16bqau0-Home {
   margin-top: 1px;
 }
 
-.css-sgjqul {
+.css-vxqqlo {
   box-sizing: border-box;
   margin: 0px;
   min-width: 0px;
@@ -2088,8 +3208,10 @@ input:checked~.css-16bqau0-Home {
 }
 
 @media screen and (min-width: 1200px) {
-  .css-sgjqul {
+  .css-vxqqlo {
     left: 16px;
+    margin-left: 186px;
+    width: 908px;
   }
 }
 
@@ -2106,7 +3228,7 @@ input:checked~.css-16bqau0-Home {
   overflow: hidden scroll;
 }
 
-.css-19o24jy {
+.css-gssjf9 {
   box-sizing: border-box;
   margin: 0px;
   min-width: 0px;
@@ -2118,18 +3240,18 @@ input:checked~.css-16bqau0-Home {
   width: 327px;
 }
 
-.css-19o24jy b {
-  padding-top: 8px;
+.css-gssjf9 b {
+  margin-top: 4px;
 }
 
 @media screen and (min-width: 480px) {
-  .css-19o24jy {
+  .css-gssjf9 {
     width: 432px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .css-19o24jy {
+  .css-gssjf9 {
     background-color: rgb(239, 239, 245);
     padding-left: 8px;
     padding-right: 0px;
@@ -2139,8 +3261,8 @@ input:checked~.css-16bqau0-Home {
 }
 
 @media screen and (min-width: 1200px) {
-  .css-19o24jy {
-    width: 21%;
+  .css-gssjf9 {
+    width: 240px;
   }
 }
 
@@ -2228,6 +3350,10 @@ input:checked~.css-16bqau0-Home {
   text-decoration: none;
 }
 
+.css-1oan9zb:last-child {
+  margin-bottom: 12px;
+}
+
 @media screen and (min-width: 768px) {
   .css-1oan9zb {
     padding-top: 11px;
@@ -2301,24 +3427,46 @@ input:checked~.css-16bqau0-Home {
   }
 }
 
-.css-d5s66b {
+.css-olwst6 {
   box-sizing: border-box;
-  margin: 12px 0px 0px;
+  margin: 12px 0px 3px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .css-olwst6 {
+    margin-bottom: 6px;
+  }
+}
+
+.css-1l5yi0h {
+  height: 16px;
+  margin-bottom: -3px;
+  margin-left: 0px;
+  width: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .css-1l5yi0h {
+    margin-left: 16px;
+  }
+}
+
+.css-5h58i {
+  box-sizing: border-box;
+  margin: 0px;
   min-width: 0px;
   color: rgb(5, 25, 45);
   font-size: 0.875rem;
   font-weight: 600;
   line-height: 20px;
-  padding-left: 0px;
+  padding-left: 8px;
   padding-top: 8px;
   padding-bottom: 8px;
-}
-
-@media screen and (min-width: 768px) {
-  .css-d5s66b {
-    padding-left: 16px;
-    margin-top: 4px;
-  }
 }
 
 .css-1mfcvtw {
@@ -2330,98 +3478,30 @@ input:checked~.css-16bqau0-Home {
   display: inline-flex;
 }
 
-.css-17ys945 {
-  margin-right: 10px !important;
-}
-
-.css-153qvhs {
-  border-bottom: 1px solid rgb(204, 207, 210);
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  margin-top: 0px;
-}
-
-@media screen and (min-width: 768px) {
-  .css-153qvhs {
-    margin-top: 8px;
-  }
-}
-
-.css-1390eeh {
-  box-sizing: border-box;
-  margin: 0px;
-  min-width: 0px;
-  text-decoration: none;
-  -webkit-box-align: center;
-  align-items: center;
-  background: transparent;
-  border-color: transparent;
-  border-left-width: 4px;
-  border-left-style: solid;
-  display: flex;
-  padding: 8px 0px 8px 12px;
-  text-align: left;
-  color: rgb(5, 25, 45);
-  font-size: 0.875rem;
-  font-weight: 600;
-  line-height: 20px;
-}
-
-.css-1390eeh:active,
-.css-1390eeh:focus,
-.css-1390eeh:hover {
-  text-decoration: underline;
-}
-
-.css-1390eeh:active,
-.css-1390eeh:focus,
-.css-1390eeh:hover {
-  outline: none;
-  text-decoration: none;
-}
-
-.css-101ddq2 {
-  height: 18px;
-  margin-right: 6px;
+.css-1ih1qqa {
+  height: 28px;
+  margin-bottom: -3px;
+  margin-left: 0px;
   width: 18px;
 }
 
-.css-83bpc1 {
+@media screen and (min-width: 768px) {
+  .css-1ih1qqa {
+    margin-left: 16px;
+  }
+}
+
+.css-1603m9t {
   box-sizing: border-box;
   margin: 0px;
   min-width: 0px;
-  appearance: none;
-  text-decoration: none;
-  border-width: 0px 0px 0px 4px;
-  border-top-style: initial;
-  border-right-style: initial;
-  border-bottom-style: initial;
-  border-image: initial;
-  border-radius: 4px;
-  -webkit-box-align: center;
-  align-items: center;
-  background: transparent;
-  border-color: transparent;
-  border-left-style: solid;
-  display: flex;
-  padding: 8px 0px 8px 12px;
-  text-align: left;
   color: rgb(5, 25, 45);
   font-size: 0.875rem;
   font-weight: 600;
   line-height: 20px;
-}
-
-.css-83bpc1:active,
-.css-83bpc1:focus,
-.css-83bpc1:hover {
-  outline: none;
-  text-decoration: none;
-}
-
-.css-83bpc1:last-child {
-  margin-bottom: 12px;
+  padding-left: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .css-3lxwnt {
@@ -2506,150 +3586,49 @@ input:checked~.css-16bqau0-Home {
   }
 }
 
-.css-qklso4 {
+.css-7d6t10 {
   width: 327px;
 }
 
 @media screen and (min-width: 480px) {
-  .css-qklso4 {
+  .css-7d6t10 {
     width: 432px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .css-qklso4 {
+  .css-7d6t10 {
     width: 37%;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .css-qklso4 {
-    width: 29%;
+  .css-7d6t10 {
+    width: 330px;
   }
 }
 
-.css-1h1mdj8 {
+.css-jj9llm {
   position: relative;
   width: 327px;
 }
 
 @media screen and (min-width: 480px) {
-  .css-1h1mdj8 {
+  .css-jj9llm {
     width: 432px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .css-1h1mdj8 {
+  .css-jj9llm {
     width: 37%;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .css-1h1mdj8 {
-    width: 29%;
+  .css-jj9llm {
+    width: 338px;
   }
-}
-
-.css-3fxgyc {
-  box-sizing: border-box;
-  margin: 0px;
-  min-width: 0px;
-  display: none;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  padding: 16px;
-  width: 21%;
-}
-
-@media screen and (min-width: 768px) {
-  .css-3fxgyc {
-    display: flex;
-  }
-}
-
-.css-6qmdkp {
-  box-sizing: border-box;
-  margin: 0px;
-  min-width: 0px;
-  padding-left: 2px;
-  padding-right: 2px;
-}
-
-.css-1n7u9rx {
-  box-sizing: border-box;
-  margin: 0px 0px 10px;
-  min-width: 0px;
-  color: rgb(98, 109, 121);
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.css-1dxiz7d {
-  list-style-type: none;
-  margin: 0px 0px 25px;
-  padding: 0px;
-}
-
-.css-1r2fo6r {
-  margin-bottom: 6px;
-}
-
-.css-1lcrj79 {
-  box-sizing: border-box;
-  margin: 0px;
-  min-width: 0px;
-  line-height: 1.5;
-  text-decoration: none;
-  color: rgb(5, 25, 45);
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.css-1lcrj79:active,
-.css-1lcrj79:focus,
-.css-1lcrj79:hover {
-  text-decoration: underline;
-}
-
-.css-4h8bcm {
-  box-sizing: border-box;
-  margin: 10px 0px 0px;
-  min-width: 0px;
-  color: rgb(5, 25, 45);
-  font-weight: 700;
-  line-height: 1.5;
-  text-decoration: none;
-  align-items: flex-end;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  position: relative;
-  width: 100%;
-}
-
-.css-4h8bcm:active,
-.css-4h8bcm:focus,
-.css-4h8bcm:hover {
-  text-decoration: underline;
-}
-
-.css-29p02j {
-  box-sizing: border-box;
-  margin: 0px;
-  min-width: 0px;
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
-  position: absolute;
-}
-
-.css-29p02j {
-  max-width: 100% !important;
-  min-width: 100% !important;
 }
 
 .css-e5sjnw {
@@ -3003,9 +3982,9 @@ input:checked~.css-16bqau0-Home {
   width: 11px;
 }
 
-.css-e6epo3 {
+.css-1glov1r {
   box-sizing: border-box;
-  margin: 4px 0px 0px 8px;
+  margin: 0px 8px 0px auto;
   min-width: 0px;
   font-size: 0.75rem;
   background-color: rgb(252, 206, 13);
@@ -3027,7 +4006,7 @@ body {
 }
 
 .dc-ps-banner-wrapper {
-  font-family: Studio-Feixen-Sans, Arial;
+  font-family: "Be Vietnam Pro", Arial;
   overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
@@ -3039,8 +4018,8 @@ body {
 .dc-ps-banner {
   animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 0.5s forwards slideIn;
   border: 0;
-  background-color: #974dff;
-  background-image: url(https://images.datacamp.com/image/upload/v1698785125/freeweek_banner_bg_gradient_b070f39ba5.svg);
+  background-color: #7933ff;
+  background-image: url(https://images.datacamp.com/image/upload/v1699561653/black_friday_nov_2023_bg_banner_02_9015b1d93a.svg);
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -3086,7 +4065,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   max-width: 1140px;
-  padding-left: 16px;
   padding-right: 48px;
   width: 100%;
   min-height: 62px;
@@ -3096,11 +4074,32 @@ body {
   display: none;
 }
 
+.dc-ps-banner-countdown {
+  margin: 0;
+}
+
+.dc-ps-banner-countdown>p {
+  margin: 0;
+}
+
+.dc-ps-banner-time {
+  background-color: #7933ff;
+  border-radius: 4px;
+  color: #ffffff;
+  display: flex;
+  font-variant-numeric: tabular-nums;
+  font-weight: bold;
+  gap: 4px;
+  padding: 2px 0 0 4px;
+}
+
 .img-left-container {
   align-items: center;
   display: flex;
-  flex-shrink: 0;
-  max-width: 100px;
+  flex-shrink: 1;
+  margin-left: 16px;
+  margin-right: 8px;
+  max-width: 180px;
   overflow: hidden;
 }
 
@@ -3112,14 +4111,64 @@ body {
 .img-right-container {
   align-items: center;
   display: none;
-  flex-shrink: 0;
-  max-width: 100px;
+  max-height: 80px;
+  flex-shrink: 1;
+  margin-left: 8px;
+  margin-right: 8px;
   overflow: hidden;
 }
 
 .img-right {
-  max-height: 60px;
+  height: auto;
   max-width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .img-right-container {
+    display: flex;
+  }
+}
+
+.fake-button-container {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.fake-button {
+  align-items: center;
+  background-color: #7933ff;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  color: #ffffff;
+  display: flex;
+  height: 36px;
+  font-family: "Be Vietnam Pro", Arial;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: center;
+  padding: 0 8px;
+  transition: background-color 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.fake-button-icon {
+  margin-left: 8px;
+}
+
+.fake-button:active,
+.fake-button:focus,
+.fake-button:hover {
+  background-color: undefined;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+  .dc-ps-banner-countdown {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -3131,12 +4180,6 @@ body {
 
   .dc-ps-banner-heading>p {
     margin: 0;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .img-right-container {
-    display: flex;
   }
 }
 
@@ -3155,14 +4198,6 @@ body {
     max-height: 70px;
   }
 
-  .img-right-container {
-    max-width: 220px;
-  }
-
-  .img-right {
-    max-height: 70px;
-  }
-
   .dc-ps-banner-flex {
     min-height: 80px;
   }
@@ -3174,7 +4209,7 @@ body {
   }
 
   .dc-ps-banner-flex {
-    padding-right: 20;
+    padding-right: 0;
     min-height: 80px;
   }
 
@@ -3186,89 +4221,11 @@ body {
     max-height: 80px;
   }
 
-  .img-right-container {
-    max-width: 260px;
+  .fake-button {
+    font-size: 16px;
+    height: 42px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
-
-  .img-right {
-    max-height: 80px;
-  }
-
-  .img-right-container {
-    padding: 0;
-  }
-}
-
-/*! CSS Used fontfaces */
-@font-face {
-  font-family: Studio-Feixen-Sans;
-  src: url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSansRegular-latin-v2.woff2) format("woff2"), url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSansRegular-latin-v2.woff) format("woff");
-  font-display: swap;
-  font-weight: 400;
-  font-style: normal;
-  unicode-range: U+00a1, U+00aa-00ab, U+00af, U+00b8, U+00bb, U+00bf-00d6, U+00d8-00f6, U+00f8-00ff, U+0131, U+0152-0153, U+02b0-02ff;
-}
-
-@font-face {
-  font-family: Studio-Feixen-Sans;
-  src: url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSansRegular-latin-extended-v2.woff2) format("woff2"), url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSansRegular-latin-extended-v2.woff) format("woff");
-  font-display: swap;
-  font-weight: 400;
-  font-style: normal;
-  unicode-range: U+0100-0130, U+0132-0151, U+0154-017f, U+0180-024f, U+1e??;
-}
-
-@font-face {
-  font-family: Studio-Feixen-Sans;
-  src: url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSansRegular-rest-v2.woff2) format("woff2"), url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSansRegular-rest-v2.woff) format("woff");
-  font-display: swap;
-  font-weight: 400;
-  font-style: normal;
-  unicode-range: U+0259, U+0300-03c0, U+2070-2073, U+2075-20ab, U+20ad-2121, U+2123-218f, U+21bc-2211, U+2213-2214, U+2216-f8fe, U+fb01-fb02;
-}
-
-@font-face {
-  font-family: Studio-Feixen-Sans;
-  src: url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSansRegular-english-v2.woff2) format("woff2"), url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSansRegular-english-v2.woff) format("woff");
-  font-display: swap;
-  font-weight: 400;
-  font-style: normal;
-  unicode-range: U+0000-00a0, U+00a2-00a9, U+00ac-00ae, U+00b0-00b7, U+00b9-00ba, U+00bc-00be, U+00d7, U+00f7, U+2000-206f, U+2074, U+20ac, U+2122, U+2190-21bb, U+2212, U+2215, U+f8ff, U+feff, U+fffd;
-}
-
-@font-face {
-  font-family: Studio-Feixen-Sans;
-  src: url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSans-Semibold-latin.woff2) format("woff2"), url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSans-Semibold-latin.woff) format("woff");
-  font-display: swap;
-  font-weight: 800;
-  font-style: normal;
-  unicode-range: U+00a1, U+00aa-00ab, U+00af, U+00b8, U+00bb, U+00bf-00d6, U+00d8-00f6, U+00f8-00ff, U+0131, U+0152-0153, U+02b0-02ff;
-}
-
-@font-face {
-  font-family: Studio-Feixen-Sans;
-  src: url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSans-Semibold-latin-extended.woff2) format("woff2"), url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSans-Semibold-latin-extended.woff) format("woff");
-  font-display: swap;
-  font-weight: 800;
-  font-style: normal;
-  unicode-range: U+0100-0130, U+0132-0151, U+0154-017f, U+0180-024f, U+1e??;
-}
-
-@font-face {
-  font-family: Studio-Feixen-Sans;
-  src: url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSans-Semibold-rest.woff2) format("woff2"), url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSans-Semibold-rest.woff) format("woff");
-  font-display: swap;
-  font-weight: 800;
-  font-style: normal;
-  unicode-range: U+0259, U+0300-03c0, U+2070-2073, U+2075-20ab, U+20ad-2121, U+2123-218f, U+21bc-2211, U+2213-2214, U+2216-f8fe, U+fb01-fb02;
-}
-
-@font-face {
-  font-family: Studio-Feixen-Sans;
-  src: url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSans-Semibold-english.woff2) format("woff2"), url(https://dcmfe.datacamp.com/assets/fonts/StudioFeixenSans-Semibold-english.woff) format("woff");
-  font-display: swap;
-  font-weight: 800;
-  font-style: normal;
-  unicode-range: U+0000-00a0, U+00a2-00a9, U+00ac-00ae, U+00b0-00b7, U+00b9-00ba, U+00bc-00be, U+00d7, U+00f7, U+2000-206f, U+2074, U+20ac, U+2122, U+2190-21bb, U+2212, U+2215, U+f8ff, U+feff, U+fffd;
 }
 </style>

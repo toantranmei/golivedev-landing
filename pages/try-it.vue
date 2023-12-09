@@ -14,7 +14,7 @@ useHead({
   <organisms-try-it-why-choose-us-section />
   <organisms-core-values-section />
   <organisms-learning-model-section />
-  <organisms-try-it-testimonials-section />
+  <organisms-testimonials-section />
   <organisms-try-it-registration-section />
   <organisms-try-it-faq-section />
 </template>

@@ -963,7 +963,9 @@ useHead({
                 style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
           </a>
         </div>
+        
       </div>
+      <organisms-redirect-to-try-it-section></organisms-redirect-to-try-it-section>
     </div>
   </div>
 </template>
@@ -3409,11 +3411,6 @@ body {
   padding-bottom: 64px;
 }
 
-@media screen and (min-width: 1200px) {
-  .css-nby3ea-DownloadAppBanner {
-    margin-bottom: 40px;
-  }
-}
 
 /*! CSS Used from: Embedded */
 .css-1f5kwad-DownloadAppBanner {
