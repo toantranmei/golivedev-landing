@@ -1,163 +1,22 @@
 <template>
-    <div class="css-1q1yak2-CoreValues">
-      <div class="css-cn48uc-CoreValues">
-        <h2 class="css-j0y3nz-CoreValues">
-          <span class="css-6ju6k7-CoreValues">Giá
-            trị cốt lõi</span> của GoLiveDev
-        </h2><span class="css-8dxfqt-CoreValues">Chúng
-          tôi hoạt động dựa trên một bộ giá trị
-          cốt
-          lõi được thiết kế để đưa chúng tôi đi
-          theo hướng tốt nhất, đạt được sứ mệnh
-          của mình là thu hẹp khoảng cách giữa
-          "nhu cầu" của doanh nghiệp và "khả
-          năng đáp ứng" từ nhân lực.</span>
-      </div>
-      <div class="css-1cbu495-CoreValues">
-        <div class="css-1i14p7k-CoreValues">
-          <span :class="[current === 1 ? 'css-1fmv6ma-ValueLetter' : 'css-ift1xc-ValueLetter']" @click="currentActive(1)">T</span>
-          <span :class="[current === 2 ? 'css-1fmv6ma-ValueLetter' : 'css-ift1xc-ValueLetter']" @click="currentActive(2)">T</span>
-          <span :class="[current === 3 ? 'css-1fmv6ma-ValueLetter' : 'css-ift1xc-ValueLetter']" @click="currentActive(3)">C</span>
-          <span :class="[current === 4 ? 'css-1fmv6ma-ValueLetter' : 'css-ift1xc-ValueLetter']" @click="currentActive(4)">H</span>
-          <span class="css-7h01j7-ValueLetter" >-</span>
-          <span :class="[current === 6 ? 'css-1fmv6ma-ValueLetter' : 'css-ift1xc-ValueLetter']" @click="currentActive(6)">H</span>
-        </div>
-        <div v-if="!isMobile" class="css-l420rp-CoreValues" :style="{transform: transformVertical}">
-        </div>
-        <div class="css-196m72i-CoreValues" :style="{transform}">
-          <div v-if="(isMobile && current === 1) || !isMobile " :class="[current === 1 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
-            <svg viewBox="0 0 18 18"
-              aria-hidden="false" height="18"
-              role="img" width="18">
-              <title>Bar Chart</title>
-              <path fill="currentColor"
-                d="M3 12a1 1 0 011 1v5H2v-5a1 1 0 011-1zm6-6a1 1 0 011 1v11H8V7a1 1 0 011-1zm6-6a1 1 0 011 1v17h-2V1a1 1 0 011-1z"
-                fill-rule="evenodd"></path>
-            </svg><span
-              class="css-ofi6z3-ValueCard">Thật
-              tâm</span><span
-              class="css-wnxzai-ValueCard">Có một
-              nghề nếu bạn không làm thật tâm, bạn
-              sẽ giết chết cả một thế hệ, cả một
-              đất nước, đó là nghề giáo, hay rộng
-              hơn là doanh nghiệp làm về
-              EdTech.</span>
-          </div>
-          <div v-if="(isMobile && current === 2) || !isMobile " :class="[current === 2 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
-            <svg viewBox="0 0 18 18"
-              aria-hidden="false" height="18"
-              role="img" width="18">
-              <title>Rocket</title>
-              <path fill="currentColor"
-                fill-rule="nonzero"
-                d="M13.207 3.127c.132.477.348.856.642 1.15.295.296.675.511 1.152.644.137-.654.225-1.34.263-2.057-.718.037-1.403.125-2.057.263zm-1.914.581a10.03 10.03 0 00-3.336 2.22c-.074.074-.614.043-1.62-.094a2 2 0 00-1.683.568L2.536 8.521l3.535.707c.35.82.704 1.41 1.061 1.767.357.358.947.711 1.768 1.061l.707 3.536 2.107-2.108a2 2 0 00.565-1.702c-.143-.984-.17-1.521-.08-1.611a10.028 10.028 0 002.22-3.336c-.78-.225-1.445-.604-1.984-1.143-.538-.538-.918-1.204-1.142-1.984zm2.965 7.786a4 4 0 01-1.13 3.404l-2.107 2.108c-1.13 1.13-3.062.544-3.375-1.022l-.512-2.557c-.572-.31-1.042-.643-1.416-1.017-.374-.374-.708-.845-1.018-1.417l-2.556-.511C.577 10.168-.008 8.236 1.122 7.106L3.24 4.988a4 4 0 013.366-1.135c.216.029.406.053.569.07 2.15-1.87 4.836-2.89 7.984-3.057A2 2 0 0117.26 2.97c-.166 3.156-1.192 5.848-3.072 8.001.017.15.04.326.07.524zM8.9 9.228a1.5 1.5 0 112.121-2.122A1.5 1.5 0 018.9 9.228zM3.764 11.82c.242.511.598 1.002 1.07 1.474.471.47.963.828 1.475 1.07l.16 1.338a.5.5 0 01-.789.465l-1.367-.982c-1.217.753-1.956 1.012-2.217.775-.261-.237-.053-1.017.624-2.338l-.806-1.19a.5.5 0 01.473-.776l1.377.164z">
-              </path>
-            </svg><span
-              class="css-ofi6z3-ValueCard">Thực
-              tế</span><span
-              class="css-wnxzai-ValueCard">Nếu chỉ
-              đào tạo về kiến thức mà không có
-              kinh nghiệm thực tế, sự trải nghiệm,
-              bạn đang đào tạo ra một thế hệ không
-              khác gì máy móc là mấy.</span>
-          </div>
-          <div v-if="(isMobile && current === 3) || !isMobile " :class="[current === 3 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
-            <svg viewBox="0 0 49 48" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M30.5 33.78a15.78 15.78 0 1 1 0-31.56 15.78 15.78 0 0 1 0 31.56Z"
-                stroke="currentColor"
-                stroke-width="4.44"></path>
-              <path
-                d="M18.5 45.78a15.78 15.78 0 1 1 0-31.56 15.78 15.78 0 0 1 0 31.56Z"
-                stroke="currentColor"
-                stroke-width="4.44"></path>
-            </svg><span
-              class="css-ofi6z3-ValueCard">Cam
-              kết</span><span
-              class="css-wnxzai-ValueCard">Cam kết
-              với chính đội ngũ, lớn hơn là cam
-              kết với những học viên - những khách
-              hàng đặt sự tin tưởng ở GoLiveDev,
-              đào tạo ra đúng với những gì đã cam
-              kết.</span>
-          </div>
-          <div v-if="(isMobile && current === 4) || !isMobile " :class="[current === 4 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
-            <svg viewBox="0 0 18 18"
-              aria-hidden="false" height="18"
-              role="img" width="18">
-              <title>Flag</title>
-              <path fill="currentColor"
-                d="M5 4v5h9V4H5zm0 7v6a1 1 0 01-2 0V1a1 1 0 112 0v1h9a2 2 0 012 2v5a2 2 0 01-2 2H5z"
-                fill-rule="evenodd"></path>
-            </svg><span
-              class="css-ofi6z3-ValueCard">Học
-              hỏi</span><span
-              class="css-wnxzai-ValueCard">Là
-              doanh nghiệp về đào tạo, nhưng
-              GoLiveDev luôn theo đuổi việc “không
-              ngừng học hỏi”, tìm ra các phương
-              pháp mới, yếu tố mới, sự sáng tạo
-              mới giúp các học viên có được kiến
-              thức phù hợp và thực tế nhất.</span>
-          </div>
-          <div v-if="(isMobile && current === 6) || !isMobile " :class="[current === 6 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
-            <svg viewBox="0 0 18 18"
-              aria-hidden="false" height="18"
-              role="img" width="18">
-              <title>Group</title>
-              <path fill="currentColor"
-                d="M9 17v-5a1 1 0 00-1-1H4a1 1 0 00-1 1v5c0 .667-.333 1-1 1s-1-.333-1-1v-5a3 3 0 013-3h4a3 3 0 013 3v5c0 .667-.333 1-1 1-.666 0-1-.333-1-1zm6 0v-3a1 1 0 00-1-1h-1c-.667 0-1-.333-1-1s.333-1 1-1h1a3 3 0 013 3v3c0 .667-.333 1-1 1-.666 0-1-.333-1-1zM6 6a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8zm8 0a1 1 0 100-2 1 1 0 000 2zm0 2a3 3 0 110-6 3 3 0 010 6z"
-                fill-rule="evenodd"></path>
-            </svg><span
-              class="css-ofi6z3-ValueCard">Hành
-              động</span><span
-              class="css-wnxzai-ValueCard">Hành
-              động ở GoLiveDev được khuyến khích,
-              dám hành động. Để có được sự thực tế
-              trong đào tạo luôn cần sự học hỏi và
-              quan trọng kèm theo đó là dám thay
-              đổi, hành động để phát triển, hành
-              động để tạo ra sự khác biệt.</span>
-          </div>
-        </div>
-      </div>
+  <div class="css-nby3ea-DownloadAppBanner">
+    <h2 class="css-1f5kwad-DownloadAppBanner">
+      Trải nghiệm học tập tại GoLiveDev</h2>
+    <p class="css-126ryhc-DownloadAppBanner">
+      Bạn có thể bắt đầu với các buổi học thử
+      trước khi ra quyết định tham gia cùng chúng
+      tôi.</p>
+    <div class="css-1u0dba1"
+      style="margin-top: 1rem;">
+      <router-link to="/try-it"
+        class="css-1g0zlof-AboutPage"><span
+          class="css-u8ltki-ButtonInternal">Đăng
+          ký học thử</span></router-link>
     </div>
+  </div>
 </template>
-
-<script setup lang="ts">
-
-  const current = ref(1)
-  const windowWidth = ref(window.innerWidth);
-  const currentActive = (slide: number) => {
-    current.value = slide
-  }
-  const transformVertical = computed(() => {
-    if(current.value === 6) {
-      return `translateX(calc(50% - 200px + ${(current.value - 3)*88}px + 132px))`
-    }
-    return `translateX(calc(50% - 200px + ${(current.value - 1)*88}px))`
-  })
-  const transform = computed(() => {
-    if(windowWidth.value < 992) {
-      return 'none'
-    }
-    if(current.value === 6) {
-      return `translateX(calc(50% - 200px + ${(current.value - 1)*88 - (388 + 24)*current.value/2 - (current.value - 1)*194 + 132 + 184}px))`
-    }
-    return `translateX(calc(50% - 200px + ${(current.value - 1)*88 - (388 + 24)*current.value/2 - (current.value - 1)*194}px))`
-  })
-  const isMobile = computed(() => {
-    return windowWidth.value < 992
-  })
-  const handleResize = () => {
-    windowWidth.value = window.innerWidth;
-  };
-  window.addEventListener('resize', handleResize);
-
-</script>
-
 <style scoped>
+/*! CSS Used from: https://www.datacamp.com/_next/static/css/f002fb689e48bb62.css */
 blockquote,
 figcaption,
 figure,
@@ -1627,12 +1486,13 @@ body {
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
+  oveflow-x: hidden;
   padding-bottom: 24px;
   padding-top: 32px;
   -webkit-transform: translateX(calc(50% - 147px - 148px - 0px + 0px));
   -moz-transform: translateX(calc(50% - 147px - 148px - 0px + 0px));
   -ms-transform: translateX(calc(50% - 147px - 148px - 0px + 0px));
-  /* transform: translateX(calc(50% - 147px - 148px - 0px + 0px)); */
+  transform: translateX(calc(50% - 147px - 148px - 0px + 0px));
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
 }
@@ -1644,6 +1504,7 @@ body {
     -webkit-transform: translateX(calc(50% - 194px - 200px - 0px + 0px));
     -moz-transform: translateX(calc(50% - 194px - 200px - 0px + 0px));
     -ms-transform: translateX(calc(50% - 194px - 200px - 0px + 0px));
+    transform: translateX(calc(50% - 194px - 200px - 0px + 0px));
   }
 }
 
@@ -1833,7 +1694,7 @@ body {
   max-width: container;
   margin-left: auto;
   margin-right: auto;
-  max-width: 830px;
+  max-width: 800px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -2595,12 +2456,6 @@ body {
   padding-bottom: 64px;
 }
 
-@media screen and (min-width: 1200px) {
-  .css-nby3ea-DownloadAppBanner {
-    margin-bottom: 40px;
-  }
-}
-
 /*! CSS Used from: Embedded */
 .css-1f5kwad-DownloadAppBanner {
   box-sizing: border-box;
@@ -2662,7 +2517,6 @@ body {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -4171,7 +4025,7 @@ body {
   display: flex;
   justify-content: center;
   max-height: 0;
-  opacity: 0;
+  opacity: 0.25;
   overflow: hidden;
   transition: max-height 0.5s cubic-bezier(0.77, 0, 0.175, 1);
   text-decoration: none;
@@ -4373,445 +4227,5 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
-}
-
-/*! CSS Used from: https://www.datacamp.com/_next/static/css/f002fb689e48bb62.css */
-h1,
-p {
-  margin: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-button {
-  background: transparent;
-  box-shadow: none;
-  border: 0;
-}
-
-button,
-button>span {
-  font-family: inherit;
-}
-
-@media (prefers-reduced-motion:reduce) {
-  * {
-    animation-duration: .01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: .01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-@media (-ms-high-contrast:active),
-(-ms-high-contrast:none) {
-  .ie-vsWrapper {
-    display: none !important;
-  }
-}
-
-/*! CSS Used from: Embedded */
-* {
-  box-sizing: border-box;
-}
-
-/*! CSS Used from: Embedded */
-.css-x87f1w {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  background-color: #05192d;
-  position: relative;
-}
-
-/*! CSS Used from: Embedded */
-.css-1ur2rgz {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  font-size: 2.4rem;
-  font-weight: 700;
-  letter-spacing: -1px;
-  line-height: 1.05;
-  margin: 0;
-  color: #fffbf3;
-  padding-bottom: 250px;
-  padding-top: 64px;
-  text-align: center;
-}
-
-@media screen and (min-width: 992px) {
-  .css-1ur2rgz {
-    font-size: 3rem;
-  }
-}
-
-/*! CSS Used from: Embedded */
-.css-1yr8ezy {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  bottom: -62px;
-  display: none;
-  height: 124px;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  left: 0;
-  overflow: hidden;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-}
-
-@media screen and (min-width: 992px) {
-  .css-1yr8ezy {
-    -webkit-align-items: flex-end;
-    -webkit-box-align: flex-end;
-    -ms-flex-align: flex-end;
-    align-items: flex-end;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-/*! CSS Used from: Embedded */
-.css-hxcjrr {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-}
-
-@media screen and (min-width: 992px) {
-  .css-hxcjrr {
-    margin-right: 460px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .css-hxcjrr {
-    margin-right: 618px;
-  }
-}
-
-/*! CSS Used from: Embedded */
-.css-1mfly0h {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  -webkit-transform: translateY(-31px);
-  -moz-transform: translateY(-31px);
-  -ms-transform: translateY(-31px);
-  transform: translateY(-31px);
-}
-
-@media screen and (min-width: 992px) {
-  .css-1mfly0h {
-    margin-left: 460px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .css-1mfly0h {
-    margin-left: 618px;
-  }
-}
-
-/*! CSS Used from: Embedded */
-.css-1246nfb {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  width: 100%;
-  max-width: container;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1172px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-top: -186px;
-}
-
-/*! CSS Used from: Embedded */
-.css-2n9l76 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 64px;
-}
-
-/*! CSS Used from: Embedded */
-.css-phmvkp {
-  background-color: #ffffff;
-  overflow: hidden;
-  position: relative;
-  width: 267px;
-  height: 267px;
-  border-radius: 4px;
-  margin: 8px;
-  padding: 8px;
-  box-sizing: border-box;
-  border: 1px solid #e5e1da;
-}
-
-.css-phmvkp:hover>div,
-.css-phmvkp:active>div,
-.css-phmvkp:focus>div {
-  background-color: rgba(12, 22, 38, 0.8);
-}
-
-.css-phmvkp:hover>div div,
-.css-phmvkp:active>div div,
-.css-phmvkp:focus>div div {
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-}
-
-/*! CSS Used from: Embedded */
-.css-vo63oz {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-image: linear-gradient(to top, #0c1626 0%, rgba(0, 0, 0, 0) 200px, rgba(0, 0, 0, 0) 100%);
-  border-radius: 4px;
-  bottom: 6px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
-  left: 8px;
-  padding-bottom: 24px;
-  position: absolute;
-  right: 8px;
-  top: 8px;
-  -webkit-transition: background-image 0.3s;
-  transition: background-image 0.3s;
-  width: 250px;
-  z-index: 10;
-}
-
-/*! CSS Used from: Embedded */
-.css-1fbf9km {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  text-align: center;
-  -webkit-transform: translateY(90px);
-  -moz-transform: translateY(90px);
-  -ms-transform: translateY(90px);
-  transform: translateY(90px);
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-}
-
-/*! CSS Used from: Embedded */
-.css-1do7sju {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
-  margin-top: 0;
-  color: #ffffff;
-  display: block;
-  margin-bottom: 8px;
-}
-
-/*! CSS Used from: Embedded */
-.css-nsihx3 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-top: 0;
-  color: #ffffff;
-}
-
-/*! CSS Used from: Embedded */
-.css-ltj8v9 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #ffffff;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  margin-top: 16px;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-/*! CSS Used from: Embedded */
-.css-l3synv {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  font-size: 1.125rem;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
-  margin-top: 0;
-  margin-left: 8px;
-}
-
-/*! CSS Used from: Embedded */
-.css-8gnmw0 {
-  position: relative;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  vertical-align: middle;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-family: "Be Vietnam Pro", Arial, sans-serif;
-  font-weight: 800;
-  line-height: 1;
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  border-style: solid;
-  border-radius: 4px;
-  border-width: 2px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: background-color 125ms ease-out;
-  transition: background-color 125ms ease-out;
-  cursor: pointer;
-  height: 36px;
-  min-width: 36px;
-  width: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-size: 14px;
-  color: #FFFFFF;
-  background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.6);
-  margin-top: 10px;
-}
-
-.css-8gnmw0::after {
-  content: '';
-  display: block;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: -4px;
-  border-radius: 6px;
-  pointer-events: none;
-  -webkit-transition: box-shadow 125ms ease-out;
-  transition: box-shadow 125ms ease-out;
-}
-
-.css-8gnmw0:hover:not(:disabled) {
-  background-color: rgba(255, 255, 255, 0.06);
-}
-
-.css-8gnmw0:active:not(:disabled) {
-  background-color: transparent;
-}
-
-.css-8gnmw0:disabled {
-  opacity: 0.6;
-  cursor: default;
-}
-
-/*! CSS Used from: Embedded */
-.css-12yghq1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 8px;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-/*! CSS Used from: Embedded */
-.css-afesvu {
-  border-radius: 4px;
-}
-
-/*! CSS Used from: Embedded */
-.css-12yghq1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 8px;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 </style>

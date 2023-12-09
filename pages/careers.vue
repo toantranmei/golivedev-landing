@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import { useSwiper } from 'swiper/vue'
 import CoreValues from '~/components/core-values.vue';
 definePageMeta({
   layout: 'default-layout',
@@ -16,49 +14,6 @@ useHead({
   ],
 })
 
-const swiper = ref();
-const onSwiper = (s: any) => {
-  swiper.value = s;
-};
-const slides = ref([
-  {
-    link: "/",
-    image: "https://images.datacamp.com/image/upload/w_188/v1600538292/Marketing/Teammates/nuno.jpg",
-    name: "Dungz",
-    description: "Tôi chỉ có một sự ham muốn, ham muốn tột bậc, là làm sao cho nước ta được hoàn toàn độc lập, dân ta được hoàn toàn tự do, ai cũng được học hành.",
-    job: "Data analytics engineer",
-  },
-  {
-    link: "/",
-    image: "https://images.datacamp.com/image/upload/w_188/v1600538292/Marketing/Teammates/nuno.jpg",
-    name: "Toanz",
-    description: "Tôi chỉ có một sự ham muốn, ham muốn tột bậc, là làm sao cho nước ta được hoàn toàn độc lập, dân ta được hoàn toàn tự do, ai cũng được học hành.",
-    job: "Data analytics engineer",
-  },
-  {
-    link: "/",
-    image: "https://images.datacamp.com/image/upload/w_188/v1600538292/Marketing/Teammates/nuno.jpg",
-    name: "Toanz",
-    description: "Tôi chỉ có một sự ham muốn, ham muốn tột bậc, là làm sao cho nước ta được hoàn toàn độc lập, dân ta được hoàn toàn tự do, ai cũng được học hành.",
-    job: "Data analytics engineer",
-  },
-  {
-    link: "/",
-    image: "https://images.datacamp.com/image/upload/w_188/v1600538292/Marketing/Teammates/nuno.jpg",
-    name: "Toanz",
-    description: "Tôi chỉ có một sự ham muốn, ham muốn tột bậc, là làm sao cho nước ta được hoàn toàn độc lập, dân ta được hoàn toàn tự do, ai cũng được học hành.",
-    job: "Data analytics engineer",
-  },
-  {
-    link: "/",
-    image: "https://images.datacamp.com/image/upload/w_188/v1600538292/Marketing/Teammates/nuno.jpg",
-    name: "Toanz",
-    description: "Tôi chỉ có một sự ham muốn, ham muốn tột bậc, là làm sao cho nước ta được hoàn toàn độc lập, dân ta được hoàn toàn tự do, ai cũng được học hành.",
-    job: "Data analytics engineer",
-  },
-  
-  
-])
 </script>
 
 <template>
@@ -120,100 +75,10 @@ const slides = ref([
           </g>
         </svg>
       </div>
-      <core-values></core-values>
-      <section class="css-120mjyq-Teammates">
-        <div class="css-osxduj-Teammates">
-          <div class="css-5dizln-Teammates">
-            <h2 class="css-lhgd8i-Teammates">Gặp gỡ đội ngũ của chúng tôi</h2>
-            <div class="css-i5nlvb">
-              <Swiper   
-                :slides-per-view="1.1"
-                :space-between="0"
-                @swiper="onSwiper"
-                class="swiper-teammate"
-                :breakpoints="{
-                  '600': {
-                    slidesPerView: 1.5,
-                  },
-                  '768': {
-                    slidesPerView: 2.1,
-                    
-                  },
-                  '1024': {
-                    slidesPerView: 3,
-                    
-                  },
-                }"
-              >
-                <SwiperSlide
-                  v-for="(slide,index) in slides"
-                  :key="index"
-                >
-                  <li :data-index="index" aria-hidden="false"
-                    class="react-multi-carousel-item react-multi-carousel-item--active "
-                    style="flex: 1 1 auto; position: relative;"><router-link
-                      :to="slide.link"
-                      rel="noopener" target="_blank" class="css-1teal8m">
-                      <div class="css-qxy6xk">
-                        <div class="css-6s6989">
-                          <img :src="slide.image" alt="image"/>
-                          <div class="ie-accentTop css-arnezi">
-                            <div class="css-gk2kgb">
-                              <p class="css-e0uos6">{{slide.description}}.</p>
-                              <p class="css-6rntzk">{{slide.name}} là một {{ slide.job }}</p>
-                            </div>
-                            <div class="css-1me3ehr">
-                              <p class="css-fxjwab">Đọc câu chuyện của {{slide.name}} <svg viewBox="0 0 743 458"
-                                  xmlns="http://www.w3.org/2000/svg" width="18" class="css-r795jk">
-                                  <path
-                                    d="M732.359 251.649l-.405.36-234.33 205.431-39.553-45.117 174.926-153.354-632.14.149-.02-60 631.329-.149L458.022 45.633l39.65-45.03 234.331 206.332c13.45 11.843 13.562 32.719.356 44.714z"
-                                    fill="currentColor"></path>
-                                </svg></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </router-link></li>
-                </SwiperSlide>
-                <!-- useSwiper() within a swiper instance -->
-                <!-- <SwiperControls /> -->
-                <div class="css-fr4fql"><button @click="swiper.slidePrev()" aria-label="Previous testimonial" class="css-nwc16v"><svg
-                      viewBox="0 0 18 18" aria-hidden="true" height="24" role="img" width="24">
-                      <path fill="currentColor"
-                        d="M4.42 8L16 7.998a1 1 0 010 2L4.41 10l3.285 3.296a.998.998 0 11-1.417 1.41l-4.93-4.948A.998.998 0 011.36 8.23l4.933-4.938a1 1 0 011.414 0c.39.391.39 1.025 0 1.416L4.42 7.999z"
-                        fill-rule="evenodd"></path>
-                    </svg></button><button @click="swiper.slideNext()" aria-label="Next testimonial" class="css-1xb391d"><svg viewBox="0 0 18 18"
-                      aria-hidden="true" height="24" role="img" width="24">
-                      <title>Right Arrow</title>
-                      <path fill="currentColor"
-                        d="M13.58 10L2 10.002a1 1 0 010-2L13.59 8l-3.285-3.296a.998.998 0 111.417-1.41l4.93 4.948a.998.998 0 01-.012 1.527l-4.933 4.938a1 1 0 01-1.414 0 1.002 1.002 0 010-1.416l3.287-3.29z"
-                        fill-rule="evenodd"></path>
-                    </svg></button></div>
-              </Swiper>
-            </div>
-          </div>
-        </div>
-        <div aria-hidden="true" class="css-kjqpdf-Teammates"><svg height="164" width="110"
-            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <g fill="none" fill-rule="evenodd" transform="rotate(90 55 55)">
-              <circle class="broome_svg__c1" cx="109.03" cy="54.59" fill="#974dff" r="54.59"></circle>
-              <circle class="broome_svg__c2" cx="54.59" cy="54.59" fill="#ff6ea9" r="54.59"></circle>
-              <path class="broome_svg__p1"
-                d="M81.81 7.26a54.59 54.59 0 0 1 0 94.67 54.57 54.57 0 0 1-27.38-47.34A54.57 54.57 0 0 1 81.71 7.31z"
-                fill="#05172c"></path>
-            </g>
-          </svg></div>
-        <div aria-hidden="true" class="css-1l47pq2-Teammates"><svg height="164" width="110"
-            xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="css-1n4naci-Teammates">
-            <g fill="none" fill-rule="evenodd" transform="rotate(90 55 55)">
-              <circle class="broome_svg__c1" cx="109.03" cy="54.59" fill="#974dff" r="54.59"></circle>
-              <circle class="broome_svg__c2" cx="54.59" cy="54.59" fill="#ff6ea9" r="54.59"></circle>
-              <path class="broome_svg__p1"
-                d="M81.81 7.26a54.59 54.59 0 0 1 0 94.67 54.57 54.57 0 0 1-27.38-47.34A54.57 54.57 0 0 1 81.71 7.31z"
-                fill="#05172c"></path>
-            </g>
-          </svg></div>
-      </section>
+      <ClientOnly>
+        <organisms-core-values-section />
+      </ClientOnly>
+      <organisms-testimonials-section />
       <section class="css-1ynv9no-Careers">
         <div class="css-t5mcc9-Box">
           <h2 class="css-7yybgi-Careers">Đặc quyền và lợi ích</h2>
@@ -285,6 +150,7 @@ const slides = ref([
             href="https://cdn.datacamp.com/datacamp-recruitment-process.pdf" target="_blank"
             class="css-17heick-CtaSection"><span class="css-u8ltki-ButtonInternal">Quy trình tuyển dụng</span></a></div>
       </section>
+      <organisms-redirect-to-try-it-section></organisms-redirect-to-try-it-section>
     </main>
   </div>
 </template>
@@ -694,9 +560,7 @@ body{margin:0;}
 .css-1x23egn-Footer{background-color:#000820;}
 /*! CSS Used from: Embedded */
 .css-nby3ea-DownloadAppBanner{box-sizing:border-box;margin:0;min-width:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;background-color:#213147;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin-bottom:0;padding-left:16px;padding-right:16px;padding-top:64px;padding-bottom:64px;}
-@media screen and (min-width: 1200px){
-.css-nby3ea-DownloadAppBanner{margin-bottom:40px;}
-}
+
 /*! CSS Used from: Embedded */
 .css-1f5kwad-DownloadAppBanner{box-sizing:border-box;margin:0;min-width:0;font-size:1.75rem;font-weight:700;letter-spacing:-0.5px;line-height:1.2;margin-top:0;color:#ffffff;text-align:center;}
 @media screen and (min-width: 992px){

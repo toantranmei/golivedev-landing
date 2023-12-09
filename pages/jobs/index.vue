@@ -113,7 +113,9 @@ const { data: works } = await useFetch('/api/jobs')
           </div>
         </div>
       </section>
+      
     </main>
+    <organisms-redirect-to-try-it-section></organisms-redirect-to-try-it-section>
     <!-- <section class="css-pyxk4w-CtaSection">
       <h2 class="css-2iapjn-CtaSection">Không tìm được công việc phù hợp?</h2>
       <div class="css-1jxpia2-CtaSection"><a href="https://boards.greenhouse.io/datacamp/jobs/1090498"
@@ -1362,12 +1364,6 @@ input:checked~.css-16bqau0-Home {
   padding-right: 16px;
   padding-top: 64px;
   padding-bottom: 64px;
-}
-
-@media screen and (min-width: 1200px) {
-  .css-nby3ea-DownloadAppBanner {
-    margin-bottom: 40px;
-  }
 }
 
 /*! CSS Used from: Embedded */

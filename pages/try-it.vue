@@ -12,9 +12,11 @@ useHead({
   <organisms-try-it-registration-header />
   <organisms-try-it-who-choose-us-section />
   <organisms-try-it-why-choose-us-section />
-  <organisms-core-values-section />
+  <ClientOnly>
+    <organisms-core-values-section />
+  </ClientOnly>
   <organisms-learning-model-section />
-  <organisms-try-it-testimonials-section />
+  <organisms-testimonials-section />
   <organisms-try-it-registration-section />
   <organisms-try-it-faq-section />
 </template>

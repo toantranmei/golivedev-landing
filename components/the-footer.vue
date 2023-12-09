@@ -1,20 +1,5 @@
 <template>
   <footer class="css-1x23egn-Footer">
-    <div class="css-nby3ea-DownloadAppBanner">
-      <h2 class="css-1f5kwad-DownloadAppBanner">
-        Trải nghiệm học tập tại GoLiveDev</h2>
-      <p class="css-126ryhc-DownloadAppBanner">
-        Bạn có thể bắt đầu với các buổi học thử
-        trước khi ra quyết định tham gia cùng chúng
-        tôi.</p>
-      <div class="css-1u0dba1"
-        style="margin-top: 1rem;">
-        <a href="#"
-          class="css-1g0zlof-AboutPage"><span
-            class="css-u8ltki-ButtonInternal">Đăng
-            ký học thử</span></a>
-      </div>
-    </div>
     <div class="css-1ad34j9-Footer">
       <div class="css-1hbyei0-Footer">
         <div class="css-1ub7xs7-Footer">
@@ -92,9 +77,9 @@
             <strong class="css-rmizgr-LinkList">Về
               chúng tôi</strong><a href="/about"
               class="css-1qicpez-LinkList">Giới
-              thiệu</a><a href="#"
+              thiệu</a><router-link to="/contact-us"  
               class="css-1qicpez-LinkList">Liên
-              hệ</a>
+              hệ</router-link>
           </div>
         </div>
       </div>

@@ -1,3 +1,17 @@
+<script setup>
+import { onMounted } from "vue"
+
+onMounted(() => {
+  console.log(document.querySelectorAll(".css-ystmte-Question"));
+  const faqList = document.querySelectorAll(".css-ystmte-Question");
+  faqList.forEach((item) => {
+    item.addEventListener("click", () => {
+      const answer = item.querySelector(".css-16pequq-Question");
+      answer.classList.toggle("active");
+    })
+  })
+})
+</script>
 <template>
   <section class="css-1ulkoej-FAQ">
     <h2 class="css-1xh2gd6-FAQ">FAQs</h2>
@@ -13,7 +27,7 @@
               d="M6.504 0v5.494H12v1.01H6.505L6.507 12h-1.01l-.002-5.495L0 6.507v-1.01l5.494-.002V0z"
               fill="#7933ff"></path>
           </svg></h3>
-        <div class="css-16pequq-Question">
+        <div class="css-16pequq-Question active">
           <div class="css-7zcmku-Question">
             <p class="css-w9r6s8-Question">Behind
               every great DataCamp course are the
@@ -296,6 +310,10 @@ button {
   padding: 16px;
   text-align: left;
   width: 100%;
+  transition: all .3s ease;
+}
+.css-ystmte-Question:hover {
+  background-color: #eee;
 }
 
 .css-ystmte-Question:not(:last-child) {
@@ -326,7 +344,7 @@ button {
   -ms-transform: none;
   transform: none;
   -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.85, 0, 0.15, 1);
-  transition: transform 0.3s cubic-bezier(0.85, 0, 0.15, 1);
+  transition: all 0.3s cubic-bezier(0.85, 0, 0.15, 1);
   width: 18px;
 }
 
@@ -342,6 +360,11 @@ button {
   -webkit-transition: max-height 0.25s ease, opacity 0.4s cubic-bezier(0.85, 0, 0.15, 1);
   transition: max-height 0.25s ease, opacity 0.4s cubic-bezier(0.85, 0, 0.15, 1);
   visibility: hidden;
+}
+.css-16pequq-Question.active {
+  max-height: 1000px;
+  opacity: 1;
+  visibility: visible;
 }
 
 /*! CSS Used from: Embedded */
