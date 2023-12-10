@@ -24,8 +24,12 @@
       </div>
       <div v-if="!isMobile" class="css-l420rp-CoreValues" :style="{transform: transformVertical}">
       </div>
-      <div class="css-196m72i-CoreValues" :style="{transform}">
-        <div v-if="(isMobile && current === 1) || !isMobile " :class="[current === 1 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
+      <div v-if="!isMobile" class="css-196m72i-CoreValues" :style="{transform}">
+        <div 
+          v-if="(isMobile && current === 1) || !isMobile " 
+          :class="[current === 1 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']"
+          @click="changeSlide(0)"
+        >
           <svg viewBox="0 0 18 18"
             aria-hidden="false" height="18"
             role="img" width="18">
@@ -43,7 +47,11 @@
             hơn là doanh nghiệp làm về
             EdTech.</span>
         </div>
-        <div v-if="(isMobile && current === 2) || !isMobile " :class="[current === 2 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
+        <div 
+          v-if="(isMobile && current === 2) || !isMobile " 
+          :class="[current === 2 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']"
+          @click="changeSlide(1)"
+        >
           <svg viewBox="0 0 18 18"
             aria-hidden="false" height="18"
             role="img" width="18">
@@ -61,7 +69,10 @@
             bạn đang đào tạo ra một thế hệ không
             khác gì máy móc là mấy.</span>
         </div>
-        <div v-if="(isMobile && current === 3) || !isMobile " :class="[current === 3 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
+        <div 
+          :class="[current === 3 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']"
+          @click="changeSlide(2)"
+        >
           <svg viewBox="0 0 49 48" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path
@@ -82,7 +93,10 @@
             đào tạo ra đúng với những gì đã cam
             kết.</span>
         </div>
-        <div v-if="(isMobile && current === 4) || !isMobile " :class="[current === 4 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
+        <div 
+          :class="[current === 4 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']"
+          @click="changeSlide(3)"
+        >
           <svg viewBox="0 0 18 18"
             aria-hidden="false" height="18"
             role="img" width="18">
@@ -101,7 +115,10 @@
             mới giúp các học viên có được kiến
             thức phù hợp và thực tế nhất.</span>
         </div>
-        <div v-if="(isMobile && current === 6) || !isMobile " :class="[current === 6 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']">
+        <div 
+          :class="[current === 6 ? 'css-58pd9d-ValueCard' : 'css-kqj99j-ValueCard']"
+          @click="changeSlide(4)"
+        >
           <svg viewBox="0 0 18 18"
             aria-hidden="false" height="18"
             role="img" width="18">
@@ -121,16 +138,139 @@
             động để tạo ra sự khác biệt.</span>
         </div>
       </div>
+      <div v-else="isMobile" style="width: 100%;">
+        <Carousel ref="myCarousel" v-model="currentSlideMobile" :items-to-show="1.2" :wrap-around="true">
+          <Slide :key="1">
+            <div :class="[currentSlideMobile === 0 ? 'slide-item-active ' : 'slide-item']" @click="changeSlide(0)">
+              <svg viewBox="0 0 18 18"
+                aria-hidden="false" height="18"
+                role="img" width="18">
+                <title>Bar Chart</title>
+                <path fill="currentColor"
+                  d="M3 12a1 1 0 011 1v5H2v-5a1 1 0 011-1zm6-6a1 1 0 011 1v11H8V7a1 1 0 011-1zm6-6a1 1 0 011 1v17h-2V1a1 1 0 011-1z"
+                  fill-rule="evenodd"></path>
+              </svg><span
+                class="css-ofi6z3-ValueCard">Thật
+                tâm</span><span
+                class="css-wnxzai-ValueCard">Có một
+                nghề nếu bạn không làm thật tâm, bạn
+                sẽ giết chết cả một thế hệ, cả một
+                đất nước, đó là nghề giáo, hay rộng
+                hơn là doanh nghiệp làm về
+                EdTech.</span>
+            </div>
+          </Slide>
+          <Slide :key="2">
+            <div :class="[currentSlideMobile === 1 ? 'slide-item-active ' : 'slide-item']" @click="changeSlide(1)">
+              <svg viewBox="0 0 18 18"
+                aria-hidden="false" height="18"
+                role="img" width="18">
+                <title>Rocket</title>
+                <path fill="currentColor"
+                  fill-rule="nonzero"
+                  d="M13.207 3.127c.132.477.348.856.642 1.15.295.296.675.511 1.152.644.137-.654.225-1.34.263-2.057-.718.037-1.403.125-2.057.263zm-1.914.581a10.03 10.03 0 00-3.336 2.22c-.074.074-.614.043-1.62-.094a2 2 0 00-1.683.568L2.536 8.521l3.535.707c.35.82.704 1.41 1.061 1.767.357.358.947.711 1.768 1.061l.707 3.536 2.107-2.108a2 2 0 00.565-1.702c-.143-.984-.17-1.521-.08-1.611a10.028 10.028 0 002.22-3.336c-.78-.225-1.445-.604-1.984-1.143-.538-.538-.918-1.204-1.142-1.984zm2.965 7.786a4 4 0 01-1.13 3.404l-2.107 2.108c-1.13 1.13-3.062.544-3.375-1.022l-.512-2.557c-.572-.31-1.042-.643-1.416-1.017-.374-.374-.708-.845-1.018-1.417l-2.556-.511C.577 10.168-.008 8.236 1.122 7.106L3.24 4.988a4 4 0 013.366-1.135c.216.029.406.053.569.07 2.15-1.87 4.836-2.89 7.984-3.057A2 2 0 0117.26 2.97c-.166 3.156-1.192 5.848-3.072 8.001.017.15.04.326.07.524zM8.9 9.228a1.5 1.5 0 112.121-2.122A1.5 1.5 0 018.9 9.228zM3.764 11.82c.242.511.598 1.002 1.07 1.474.471.47.963.828 1.475 1.07l.16 1.338a.5.5 0 01-.789.465l-1.367-.982c-1.217.753-1.956 1.012-2.217.775-.261-.237-.053-1.017.624-2.338l-.806-1.19a.5.5 0 01.473-.776l1.377.164z">
+                </path>
+              </svg><span
+                class="css-ofi6z3-ValueCard">Thực
+                tế</span><span
+                class="css-wnxzai-ValueCard">Nếu chỉ
+                đào tạo về kiến thức mà không có
+                kinh nghiệm thực tế, sự trải nghiệm,
+                bạn đang đào tạo ra một thế hệ không
+                khác gì máy móc là mấy.</span>
+            </div>
+          </Slide>
+          <Slide :key="3">
+            <div :class="[currentSlideMobile === 2 ? 'slide-item-active ' : 'slide-item']" @click="changeSlide(2)">
+              <svg viewBox="0 0 49 48" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30.5 33.78a15.78 15.78 0 1 1 0-31.56 15.78 15.78 0 0 1 0 31.56Z"
+                  stroke="currentColor"
+                  stroke-width="4.44"></path>
+                <path
+                  d="M18.5 45.78a15.78 15.78 0 1 1 0-31.56 15.78 15.78 0 0 1 0 31.56Z"
+                  stroke="currentColor"
+                  stroke-width="4.44"></path>
+              </svg><span
+                class="css-ofi6z3-ValueCard">Cam
+                kết</span><span
+                class="css-wnxzai-ValueCard">Cam kết
+                với chính đội ngũ, lớn hơn là cam
+                kết với những học viên - những khách
+                hàng đặt sự tin tưởng ở GoLiveDev,
+                đào tạo ra đúng với những gì đã cam
+                kết.</span>
+            </div>
+          </Slide>
+          <Slide :key="4">
+            <div :class="[currentSlideMobile === 3 ? 'slide-item-active ' : 'slide-item']" @click="changeSlide(3)">
+              <svg viewBox="0 0 18 18"
+                aria-hidden="false" height="18"
+                role="img" width="18">
+                <title>Flag</title>
+                <path fill="currentColor"
+                  d="M5 4v5h9V4H5zm0 7v6a1 1 0 01-2 0V1a1 1 0 112 0v1h9a2 2 0 012 2v5a2 2 0 01-2 2H5z"
+                  fill-rule="evenodd"></path>
+              </svg><span
+                class="css-ofi6z3-ValueCard">Học
+                hỏi</span><span
+                class="css-wnxzai-ValueCard">Là
+                doanh nghiệp về đào tạo, nhưng
+                GoLiveDev luôn theo đuổi việc “không
+                ngừng học hỏi”, tìm ra các phương
+                pháp mới, yếu tố mới, sự sáng tạo
+                mới giúp các học viên có được kiến
+                thức phù hợp và thực tế nhất.</span>
+            </div>
+          </Slide>
+          <Slide :key="5">
+            <div :class="[currentSlideMobile === 4 ? 'slide-item-active ' : 'slide-item']" @click="changeSlide(4)">
+              <svg viewBox="0 0 18 18"
+                aria-hidden="false" height="18"
+                role="img" width="18">
+                <title>Group</title>
+                <path fill="currentColor"
+                  d="M9 17v-5a1 1 0 00-1-1H4a1 1 0 00-1 1v5c0 .667-.333 1-1 1s-1-.333-1-1v-5a3 3 0 013-3h4a3 3 0 013 3v5c0 .667-.333 1-1 1-.666 0-1-.333-1-1zm6 0v-3a1 1 0 00-1-1h-1c-.667 0-1-.333-1-1s.333-1 1-1h1a3 3 0 013 3v3c0 .667-.333 1-1 1-.666 0-1-.333-1-1zM6 6a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8zm8 0a1 1 0 100-2 1 1 0 000 2zm0 2a3 3 0 110-6 3 3 0 010 6z"
+                  fill-rule="evenodd"></path>
+              </svg><span
+                class="css-ofi6z3-ValueCard">Hành
+                động</span><span
+                class="css-wnxzai-ValueCard">Hành
+                động ở GoLiveDev được khuyến khích,
+                dám hành động. Để có được sự thực tế
+                trong đào tạo luôn cần sự học hỏi và
+                quan trọng kèm theo đó là dám thay
+                đổi, hành động để phát triển, hành
+                động để tạo ra sự khác biệt.</span>
+            </div>
+          </Slide>
+        </Carousel>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { Carousel, Slide } from 'vue3-carousel'
+import 'vue3-carousel/dist/carousel.css'
+
+const myCarousel = ref(null)
 const current = ref(1)
-const windowWidth = ref(window.innerWidth);
+const currentSlideMobile = ref(0)
+const windowWidth = ref(0);
 const currentActive = (slide: number) => {
   current.value = slide
+  if(slide === 6) {
+    currentSlideMobile.value = 4
+  } else {
+    currentSlideMobile.value = slide - 1
+  }
 }
+onMounted(() => nextTick(()=>{
+  windowWidth.value = window.innerWidth
+  window.addEventListener('resize', handleResize);
+}))
 const transformVertical = computed(() => {
   if(current.value === 6) {
     return `translateX(calc(50% - 200px + ${(current.value - 3)*88}px + 132px))`
@@ -149,10 +289,19 @@ const transform = computed(() => {
 const isMobile = computed(() => {
   return windowWidth.value < 992
 })
+watch(() => currentSlideMobile.value, (newValue) => {
+  if(newValue === 4) {
+    current.value = 6
+  } else {
+    current.value = newValue + 1
+  }
+});
 const handleResize = () => {
   windowWidth.value = window.innerWidth;
 };
-window.addEventListener('resize', handleResize);
+const changeSlide = (slide: number) => {
+  currentSlideMobile.value = slide
+}
 </script>
 <style scoped>
 blockquote,
@@ -4810,5 +4959,38 @@ button>span {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+.slide-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: auto;
+  flex-direction: column;
+  padding: 16px;
+  margin: 0 16px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.15);
+  opacity: 0.3;
+}
+.slide-item svg {
+  height: 48px;
+  width: 48px;
+  color: #7933FF;
+}
+.slide-item-active {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: auto;
+  flex-direction: column;
+  padding: 16px;
+  margin: 0 16px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.slide-item-active svg {
+  height: 48px;
+  width: 48px;
+  color: #7933FF;
 }
 </style>
