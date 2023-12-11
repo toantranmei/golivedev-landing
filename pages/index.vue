@@ -933,37 +933,6 @@ useHead({
                 data-nimg="fixed" class="css-afesvu"
                 style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
           </a>
-          <a href="#" class="css-phmvkp">
-            <div class="css-vo63oz">
-              <div class="css-1fbf9km"><strong
-                  class="css-1do7sju">Phùng Đức
-                  Dũng</strong>
-                <p class="css-nsihx3">Sub
-                  Instructor
-                </p>
-                <div class="css-ltj8v9"><svg
-                    fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="17" height="17">
-                    <path
-                      d="M15.75 9.23v5.82h-3.38V9.62c0-1.37-.48-2.3-1.7-2.3-.94 0-1.5.63-1.74 1.24-.09.21-.11.52-.11.82v5.67H5.44s.05-9.2 0-10.15h3.38v1.44l-.02.03h.02v-.03a3.35 3.35 0 0 1 3.04-1.68c2.23 0 3.89 1.45 3.89 4.57zM1.91 0C.76 0 0 .76 0 1.75c0 .98.73 1.76 1.87 1.76h.02c1.18 0 1.9-.78 1.9-1.75C3.79.75 3.08 0 1.92 0zM.21 15.05h3.37V4.89H.2v10.16z">
-                    </path>
-                    <path
-                      d="M.13.13h15.74v15.74H.13z"
-                      fill="none"
-                      fill-rule="evenodd"></path>
-                  </svg><span
-                    class="css-l3synv">LinkedIn</span>
-                </div><button class="css-8gnmw0"
-                  type="button"><span
-                    class="css-12yghq1">Portfolio</span></button>
-              </div>
-            </div><span
-              style="box-sizing:border-box;display:inline-block;overflow:hidden;width:248px;height:248px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><img
-                src="" decoding="async"
-                data-nimg="fixed" class="css-afesvu"
-                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover;object-position:top"></span>
-          </a>
         </div>
         
       </div>
