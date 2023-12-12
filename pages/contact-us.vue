@@ -62,8 +62,8 @@ const supportOption = ref('customer')
                           </div>
                           <div class="tab" :class="{ 'is-hidden': supportOption !== 'customer' }">Cách dễ nhất để liên lạc là thông qua bot hỗ trợ của chúng tôi bằng cách nhấp vào nút trò chuyện ở góc dưới cùng bên phải. Bạn có thể dễ dàng kết nối với một thành viên trong nhóm nếu bạn cần nói chuyện với ai đó.&nbsp;<br><br>
                             Ngoài ra, bạn có thể sử dụng biểu mẫu liên hệ với chúng tôi để chúng tôi có thể phản hồi trong vòng vài ngày (thường nhanh hơn nhiều):<br><br>
-                            Vui lòng gửi email tới media@datacamp.com<br><br></div>
-                          <div class="tab" :class="{ 'is-hidden': supportOption !== 'other' }">Vui lòng gửi email tới media@datacamp.com<br><br>If you need
+                            Vui lòng gửi email tới cskh@golivedev.com<br><br></div>
+                          <div class="tab" :class="{ 'is-hidden': supportOption !== 'other' }">Vui lòng gửi email tới support@golivedev.com<br><br>If you need
                             Instructor related help, visit the <a href="https://instructor-support.datacamp.com/en/"
                               target="_self">dedicated help site.</a><br><br></div>
                         </div>
@@ -86,17 +86,16 @@ const supportOption = ref('customer')
                     <div data-toc="{&quot;mobileBreakpoint&quot;: 991}">
                       <div class="lt-toc lt-toc_is-desktop">
                         <div class="lt-toc--container">
-                          <h4 class="lt-toc--title">Table of contents</h4>
-                          <div class="lt-toc--current">Get instant help</div>
+                          <h4 class="lt-toc--title">Mục lục</h4>
+                          <div class="lt-toc--current">Nhận trợ giúp ngay lập tức</div>
                           <ul class="lt-toc--list" style="max-height: 664px;">
   
                             <li class="lt-toc--item lt-toc--item-h3">
-                              <a href="#get-instant-help-0-0" class="lt-toc--link"><span>Get instant
-                                  help</span></a>
+                              <a href="#get-instant-help-0-0" class="lt-toc--link"><span>Nhận trợ giúp ngay lập tức</span></a>
                             </li>
   
                             <li class="lt-toc--item lt-toc--item-h3">
-                              <a href="#contact-options-0-1" class="lt-toc--link"><span>Contact Options</span></a>
+                              <a href="#contact-options-0-1" class="lt-toc--link"><span>Tùy chọn liên hệ</span></a>
                             </li>
   
                           </ul>
@@ -257,13 +256,13 @@ button {
 }
 
 a {
-  color: rgba(0, 117, 173, 1);
+  color: #7933FF;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #004161;
+  color: #33e;
 }
 
 img {

@@ -287,7 +287,7 @@ button>span {
   justify-content: center;
   overflow: hidden;
   width: 24px;
-  background-color: #03ef62;
+  background-color: #7933FF;
   margin-right: 8px;
   margin-top: 1px;
 }
@@ -649,7 +649,7 @@ button>span {
   flex-direction: column;
   font-size: 16px;
   color: #05192D;
-  background-color: #03EF62;
+  background-color: #7933FF;
   border-color: transparent;
   margin-top: 32px;
   width: 100%;
@@ -672,11 +672,11 @@ button>span {
 }
 
 .css-13bmop9-FormAcademic:hover:not(:disabled) {
-  background-color: #00E053;
+  background-color: #6f25f7;
 }
 
 .css-13bmop9-FormAcademic:active:not(:disabled) {
-  background-color: #03EF62;
+  background-color: #7933FF;
 }
 
 .css-13bmop9-FormAcademic:disabled {
