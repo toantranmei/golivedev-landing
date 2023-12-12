@@ -40,16 +40,22 @@ export default defineNuxtConfig({
     },
     cdnURL: '/',
   },
-  modules: [
-    [
-      "@nuxtjs/google-fonts",
-      {
-        families: {
-          "Be Vietnam Pro": [100, 200, 300, 400, 500, 600, 700, 800, 900],
-        },
+  modules: [[
+    "@nuxtjs/google-fonts",
+    {
+      families: {
+        "Be Vietnam Pro": [100, 200, 300, 400, 500, 600, 700, 800, 900],
       },
-    ],
-    "@nuxtjs/robots",
-    'nuxt-swiper',
-  ],
+    },
+  ], "@nuxtjs/robots", 'nuxt-swiper', "@nuxtjs/tailwindcss"],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+     cssnano:
+       process.env.NODE_ENV === 'production'
+         ? { preset: ['default', { discardComments: { removeAll: true } }] }
+         : false, // disable cssnano when not in production
+    },
+ }
 });
