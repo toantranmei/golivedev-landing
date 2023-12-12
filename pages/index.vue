@@ -1419,6 +1419,7 @@ body {
   max-width: 910px;
   text-align: center;
   width: 100%;
+  padding: 0 16px;
 }
 
 /*! CSS Used from: Embedded */
@@ -1426,7 +1427,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   font-weight: 700;
   margin: 0;
   color: #ffffff;
@@ -1449,7 +1450,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 0;
   color: #ffffff;
   margin: 0 auto;
@@ -1649,8 +1650,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 1172px;
-  padding-left: 16px;
-  padding-right: 16px;
   max-width: 782px;
 }
 
@@ -5345,6 +5344,20 @@ button>span {
   margin-right: auto;
   padding-bottom: 64px;
 }
+@media screen and (max-width: 768px) {
+  .css-2n9l76 {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
+  .css-phmvkp {
+    flex: 0 0 267px;
+  }
+  .css-1246nfb {
+    padding: 0;
+  }
+}
+  
 
 /*! CSS Used from: Embedded */
 .css-phmvkp {

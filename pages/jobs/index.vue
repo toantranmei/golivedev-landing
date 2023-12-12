@@ -391,7 +391,7 @@ body {
 .css-uaatxz-HiringLink {
   background-color: #213147;
   border-radius: 4px;
-  color: #03ef62;
+  color: #7933FF;
   display: inline-block;
   font-size: 14px;
   padding-left: 4px;
@@ -1656,7 +1656,7 @@ input:checked~.css-16bqau0-Home {
 .css-fkog9e a:active svg,
 .css-fkog9e a:focus svg,
 .css-fkog9e a:hover svg {
-  fill: #03ef62;
+  fill: #7933FF;
 }
 
 /*! CSS Used from: Embedded */

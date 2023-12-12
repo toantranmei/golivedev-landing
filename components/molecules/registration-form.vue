@@ -449,8 +449,8 @@ button > span {
   -ms-flex-direction: column;
   flex-direction: column;
   font-size: 16px;
-  color: #05192d;
-  background-color: #03ef62;
+  color: #fff;
+  background-color: #7933FF;
   border-color: transparent;
   display: -webkit-box;
   display: -webkit-flex;
@@ -477,11 +477,11 @@ button > span {
 }
 
 .css-1u06dpx-Home:hover:not(:disabled) {
-  background-color: #00e053;
+  background-color: #6f25f7;
 }
 
 .css-1u06dpx-Home:active:not(:disabled) {
-  background-color: #03ef62;
+  background-color: #7933FF;
 }
 
 .css-1u06dpx-Home:disabled {
@@ -1058,8 +1058,8 @@ button > span {
   -ms-flex-direction: column;
   flex-direction: column;
   font-size: 14px;
-  color: #05192d;
-  background-color: #03ef62;
+  color: #fff;
+  background-color: #7933FF;
   border-color: transparent;
   margin-top: 24px;
   width: 100%;
@@ -1082,11 +1082,11 @@ button > span {
 }
 
 .css-v9clva-FormSignUp:hover {
-  background-color: #00e053;
+  background-color: #6f25f7;
 }
 
 .css-v9clva-FormSignUp:active {
-  background-color: #03ef62;
+  background-color: #7933FF;
 }
 
 .css-v9clva-FormSignUp:disabled {
@@ -1924,8 +1924,8 @@ button > span {
   -ms-flex-direction: column;
   flex-direction: column;
   font-size: 14px;
-  color: #05192d;
-  background-color: #03ef62;
+  color: #fff;
+  background-color: #7933FF;
   border-color: transparent;
   margin-top: 24px;
   width: 100%;
@@ -1948,11 +1948,11 @@ button > span {
 }
 
 .css-v9clva-FormSignUp:hover {
-  background-color: #00e053;
+  background-color: #6f25f7;
 }
 
 .css-v9clva-FormSignUp:active {
-  background-color: #03ef62;
+  background-color: #7933FF;
 }
 
 .css-v9clva-FormSignUp:disabled {
