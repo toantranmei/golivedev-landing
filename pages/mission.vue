@@ -9,10 +9,13 @@ useHead({
 </script>
 
 <template>
-  <fpt-try-it-registration-header />
-  <fpt-section1/>
-  <mission-learn-model-section/>
-  <fpt-exclusive-model-section />
+  <mission-section1 />
+  <mission-section2 />
+  <mission-section3 />
+  <mission-section4 />
+  <mission-section5 />
+  <mission-section6 />
+  <mission-section7 />
   <ClientOnly>
     <organisms-core-values-section />
   </ClientOnly>
