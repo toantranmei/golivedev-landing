@@ -1,18 +1,6 @@
 <template>
   <section class="css-qzcsg8-LandingPageContent">
     <div class="css-rldcdz-LandingPageContent">
-      <div class="css-99ppqy-LandingPageContent">
-        <span class="css-8l6zuf-LandingPageContent">Datacamp Workspace</span>
-        <h2 class="css-1rnzvv3-ThemedText">Mô hình độc quyền</h2>
-        <div class="css-x5zq7w-LandingPageContent">
-          <p class="p-margin">
-            Workspace is a collaborative classroom learning solution designed to
-            fast-track students' practical data science skills. Spend less time
-            on setup with a notebook that's fully managed and runs in-browser,
-            enabling everyone to start coding immediately.
-          </p>
-        </div>
-      </div>
       <div class="css-1gi930s-LandingPageContent">
         <div class="css-sz0oqr-ContentHighlight">
           <div class="css-1y6xzn-ContentHighlight">

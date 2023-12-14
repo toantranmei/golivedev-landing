@@ -1,102 +1,10 @@
 <template>
   <section class="css-qzcsg8-LandingPageContent">
     <div class="css-rldcdz-LandingPageContent">
-      <div class="css-99ppqy-LandingPageContent">
-        <span class="css-8l6zuf-LandingPageContent">Datacamp Workspace</span>
-        <h2 class="css-1rnzvv3-ThemedText">Mô hình độc quyền</h2>
-        <div class="css-x5zq7w-LandingPageContent">
-          <p class="p-margin">
-            Workspace is a collaborative classroom learning solution designed to
-            fast-track students' practical data science skills. Spend less time
-            on setup with a notebook that's fully managed and runs in-browser,
-            enabling everyone to start coding immediately.
-          </p>
-        </div>
-      </div>
       <div class="css-1gi930s-LandingPageContent">
         <div class="css-sz0oqr-ContentHighlight">
           <div class="css-1y6xzn-ContentHighlight">
             <div class="css-84smv-ContentHighlight">
-              <div class="figure css-1o1yyep-ContentHighlightItem">
-                <div class="css-do8tdr-ContentHighlightItem">
-                  <div class="css-1epnd6x-ResponsiveImage">
-                    <span
-                      style="
-                        box-sizing: border-box;
-                        display: block;
-                        overflow: hidden;
-                        width: initial;
-                        height: initial;
-                        background: none;
-                        opacity: 1;
-                        border: 0;
-                        margin: 0;
-                        padding: 0;
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        bottom: 0;
-                        right: 0;
-                      "
-                      ><img
-                        alt="responsive media image"
-                        src="https://images.datacamp.com/f_auto,c_limit,w_3840,q_auto/ws_classrooms_db5812b570.png"
-                        decoding="async"
-                        data-nimg="fill"
-                        class="css-nbbwlj-ResponsiveImage"
-                        style="
-                          position: absolute;
-                          top: 0;
-                          left: 0;
-                          bottom: 0;
-                          right: 0;
-                          box-sizing: border-box;
-                          padding: 0;
-                          border: none;
-                          margin: auto;
-                          display: block;
-                          width: 0;
-                          height: 0;
-                          min-width: 100%;
-                          max-width: 100%;
-                          min-height: 100%;
-                          max-height: 100%;
-                        "
-                        sizes="(max-width: 600px) 100vw, 558px" />
-                      <noscript
-                        ><img
-                          alt="responsive media image"
-                          sizes="(max-width: 600px) 100vw, 558px"
-                          src="https://images.datacamp.com/f_auto,c_limit,w_3840,q_auto/ws_classrooms_db5812b570.png"
-                          decoding="async"
-                          data-nimg="fill"
-                          style="
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            bottom: 0;
-                            right: 0;
-                            box-sizing: border-box;
-                            padding: 0;
-                            border: none;
-                            margin: auto;
-                            display: block;
-                            width: 0;
-                            height: 0;
-                            min-width: 100%;
-                            max-width: 100%;
-                            min-height: 100%;
-                            max-height: 100%;
-                          "
-                          class="css-nbbwlj-ResponsiveImage"
-                          loading="lazy" /></noscript
-                    ></span>
-                  </div>
-                </div>
-                <figcaption
-                  class="css-kbx61o-ContentHighlightItem"
-                ></figcaption>
-              </div>
               <div class="css-1o1yyep-ContentHighlightItem">
                 <figcaption class="css-kbx61o-ContentHighlightItem">
                   <span class="css-hky8j6-ContentHighlightItem">1. With Workspace, you can:</span>
@@ -250,6 +158,86 @@
                     >
                   </div>
                 </figcaption>
+              </div>
+              <div class="figure css-1o1yyep-ContentHighlightItem">
+                <div class="css-do8tdr-ContentHighlightItem">
+                  <div class="css-1epnd6x-ResponsiveImage">
+                    <span
+                      style="
+                        box-sizing: border-box;
+                        display: block;
+                        overflow: hidden;
+                        width: initial;
+                        height: initial;
+                        background: none;
+                        opacity: 1;
+                        border: 0;
+                        margin: 0;
+                        padding: 0;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        right: 0;
+                      "
+                      ><img
+                        alt="responsive media image"
+                        src="https://images.datacamp.com/f_auto,c_limit,w_3840,q_auto/ws_classrooms_db5812b570.png"
+                        decoding="async"
+                        data-nimg="fill"
+                        class="css-nbbwlj-ResponsiveImage"
+                        style="
+                          position: absolute;
+                          top: 0;
+                          left: 0;
+                          bottom: 0;
+                          right: 0;
+                          box-sizing: border-box;
+                          padding: 0;
+                          border: none;
+                          margin: auto;
+                          display: block;
+                          width: 0;
+                          height: 0;
+                          min-width: 100%;
+                          max-width: 100%;
+                          min-height: 100%;
+                          max-height: 100%;
+                        "
+                        sizes="(max-width: 600px) 100vw, 558px" />
+                      <noscript
+                        ><img
+                          alt="responsive media image"
+                          sizes="(max-width: 600px) 100vw, 558px"
+                          src="https://images.datacamp.com/f_auto,c_limit,w_3840,q_auto/ws_classrooms_db5812b570.png"
+                          decoding="async"
+                          data-nimg="fill"
+                          style="
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            bottom: 0;
+                            right: 0;
+                            box-sizing: border-box;
+                            padding: 0;
+                            border: none;
+                            margin: auto;
+                            display: block;
+                            width: 0;
+                            height: 0;
+                            min-width: 100%;
+                            max-width: 100%;
+                            min-height: 100%;
+                            max-height: 100%;
+                          "
+                          class="css-nbbwlj-ResponsiveImage"
+                          loading="lazy" /></noscript
+                    ></span>
+                  </div>
+                </div>
+                <figcaption
+                  class="css-kbx61o-ContentHighlightItem"
+                ></figcaption>
               </div>
             </div>
           </div>
