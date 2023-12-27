@@ -27,7 +27,7 @@
                     <span
                       style="box-sizing:border-box;display:block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:absolute;top:0;left:0;bottom:0;right:0"><img
                         alt="curriculum-technologies-callouts.png"
-                        src="https://i.pinimg.com/736x/c6/c2/8a/c6c28a1a438757a5a6096e5dfbf747e3.jpg"
+                        src="https://upviet.com.vn/uploaded/san%20pham/VR/c%C3%B4ng_ngh%C3%AA_VR_virtual_reality.jpg"
                         decoding="async"
                         data-nimg="fill"
                         class="css-zj7oj1-ResponsiveImage"
@@ -43,40 +43,24 @@
                 class=" css-1o1yyep-ContentHighlightItem">
                 <figcaption
                   class="css-kbx61o-ContentHighlightItem">
-                  <h2 class="css-lvaggg">Unlimited
-                    access to data education</h2>
+                  <h2 class="css-lvaggg">Mô Phỏng
+                    Thực Tế Theo Nhu Cầu</h2>
                   <div
                     class="css-88esz2-ContentHighlightItem">
                     <span class="css-9kijry">
-                      <p><span
-                          style="font-weight: 400;">With
-                          DataCamp Unlimited, you
-                          gain organization-wide
-                          access to our
-                          best-in-class data
-                          education platform. This
-                          means
-                        </span><strong>unrestricted
-                          access</strong><span
-                          style="font-weight: 400;">
-                          to our entire course
-                          catalog, as well as
-                          assessments, projects, and
-                          certifications, enabling
-                          your professionals to
-                          implement what they learn.
-                          You can also manage
-                          upskilling across your
-                          organization by building
-                          custom tracks and
-                          measuring outcomes with
-                          customizable
-                          reporting.</span></p>
+                      <p>Mô phỏng các tình huống
+                        thực tế, giúp người dùng áp
+                        dụng kiến thức vào các tình
+                        huống thực tế. Ngoài ra công
+                        nghệ được tùy biến theo nhu
+                        cầu của doanh nghiệp, giúp
+                        sự thực tế được đẩy cao lên
+                        tối đa.</p>
                     </span>
                   </div>
                   <div
                     class="css-1c25l8n-ContentHighlightItem">
-                    
+
                   </div>
                 </figcaption>
               </div>
@@ -89,32 +73,20 @@
               <div class=" css-1npe8w2">
                 <figcaption
                   class="css-kbx61o-ContentHighlightItem">
-                  <h2 class="css-lvaggg">More value
-                    for your learning budget </h2>
+                  <h2 class="css-lvaggg">Tương Thích
+                    Đa Nền Tảng</h2>
                   <div class="css-1axke0n"><span
                       class="css-9kijry">
-                      <p><span
-                          style="font-weight: 400;">While
-                          seat-based plans are
-                          traditional in this space,
-                          they often limit learning
-                          to specific people or
-                          teams and increase the
-                          administrative burden for
-                          your business. Unlimited
-                          pricing is simple and
-                          transparent -
-                        </span><strong>one fixed
-                          price point</strong><span
-                          style="font-weight: 400;">
-                          covers your entire
-                          organization, reducing the
-                          cost per seat. No hidden
-                          fees, no usage
-                          restrictions, no
-                          friction.</span></p>
+                      <p>Hệ thống chạy đa nền tảng,
+                        hỗ trợ trên web giúp bạn có
+                        thể truy cập ở mọi nơi, mọi
+                        lúc. Chỉ cần có một đường
+                        truyền internet ổn định,
+                        trải nghiệm không giới hạn
+                        với sản phẩm của GoLiveDev
+                      </p>
                     </span></div>
-                  
+
                 </figcaption>
               </div>
               <div class="figure css-1npe8w2">
@@ -123,7 +95,7 @@
                       style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
                         alt="expert-guidance.png"
                         sizes="(max-width: 600px) 100vw, 558px"
-                        src="https://i.pinimg.com/736x/c6/c2/8a/c6c28a1a438757a5a6096e5dfbf747e3.jpg"
+                        src="https://bizflyportal.mediacdn.vn/bizflyportal/2505/13462/2023/02/07/23/15/lap-trinh-da-nen-tang-16757649471902.jpg"
                         decoding="async"
                         data-nimg="fill"
                         class="css-ptvba5"
@@ -145,7 +117,7 @@
                   <div class="css-12vqd5t"><span
                       style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
                         alt="training-for-all-levels.png"
-                        src="https://i.pinimg.com/736x/c6/c2/8a/c6c28a1a438757a5a6096e5dfbf747e3.jpg"
+                        src="https://cdn1.tuoitre.vn/zoom/600_315/2018/12/7/time-management-skills-and-techniques-15441089606482041104563-15441648001971567487569-crop-15444051527201806880823.png"
                         decoding="async"
                         data-nimg="fill"
                         class="css-ptvba5"
@@ -158,37 +130,25 @@
               </div>
               <div class=" css-1npe8w2">
                 <figcaption class="css-134juom">
-                  <h2 class="css-lvaggg">Empower
-                    your business with data fluency
+                  <h2 class="css-lvaggg">Tiết Kiệm
+                    Thời Gian và Chi Phí
                   </h2>
                   <div class="css-1axke0n"><span
                       class="css-9kijry">
-                      <p><span
-                          style="font-weight: 400;">Data
-                          skills are essential. By
-                          2025, 70% of employees are
-                          expected to work with
-                          data, but only 1 in 4 are
-                          confident with their
-                          current skills. DataCamp
-                          Unlimited is not just for
-                          experts or those already
-                          in data-related roles.
-                          It's an opportunity to
-                        </span><strong>upskill
-                          your</strong><span
-                          style="font-weight: 400;">
-                        </span><strong>entire
-                          organization</strong><span
-                          style="font-weight: 400;">,
-                          regardless of their level
-                          of expertise, to make
-                          data-driven decisions,
-                          become digitally ready,
-                          and ask effective data
-                          questions.</span></p>
+                      <p>Bạn sẽ mất rất lâu để có
+                        thể rút ra được một kinh
+                        nghiệm, hoặc là phải trải
+                        qua thực tế, điều này ảnh
+                        hưởng tới thời gian, tiền
+                        bạc mà bạn phải bỏ ra. Việc
+                        trải nghiệm trước sẽ giúp
+                        bạn có những kịch bản chuẩn
+                        bị tốt hơn, tiết kiệm thời
+                        gian hơn, ngân sách, tiền
+                        bạc bỏ ra cũng sẽ chắc chắn
+                        được tối ưu hơn.</p>
                     </span></div>
-                  
+
                 </figcaption>
               </div>
             </div>

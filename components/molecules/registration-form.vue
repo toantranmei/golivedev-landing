@@ -43,95 +43,82 @@ export default {
 </script>
 <template>
   <div class="css-16nysgj-FormSignUp">
-    <h2 class="css-1r5q13f-FormSignUp">Trải nghiệm miễn phí</h2>
+    <h2 class="css-1r5q13f-FormSignUp">Tư vấn và
+      dùng thử miễn phí</h2>
     <form
       class="snowplow_tracked ds-snowplow-form-home-create-account css-1peva9n-Box"
-      @submit.prevent="submitForm"
-      method="post"
-    >
+      @submit.prevent="submitForm" method="post">
       <fieldset class="css-a85r1y-FormSignUp">
-        <label :for="`intro-user_fullname-${randomID}`" class="css-ofdml2-labelStyle"
-          ><span class="css-93ekd2-Label"
-            ><span class="css-u1kbnq-Label"
-              ><span class="css-1nnvhqq-baseStyle-textStyle-textStyle"
-                >Họ và Tên</span
-              ></span
-            ></span
-          >
+        <label
+          :for="`intro-user_fullname-${randomID}`"
+          class="css-ofdml2-labelStyle"><span
+            class="css-93ekd2-Label"><span
+              class="css-u1kbnq-Label"><span
+                class="css-1nnvhqq-baseStyle-textStyle-textStyle">Họ
+                và Tên</span></span></span>
           <div class="css-1pesyxn-inputElement">
-            <input
-              autocomplete="new-password"
+            <input autocomplete="new-password"
               class="css-o6y3vg-inputSize-baseFormStyle-inputStyle-getInputStyle-getInputStyle _ar_hide_"
-              :id="`intro-user_fullname-${randomID}`" 
+              :id="`intro-user_fullname-${randomID}`"
               name="user[fullname]"
-              placeholder="Nhập họ và tên"
-              required
+              placeholder="Nhập họ và tên" required
               type="text"
               _ar_hide_="width:408px;height:48px;margin:0px;position:static;display:inline-block;"
               v-model="formData.username"
-              :disabled="isLoading"
-            />
+              :disabled="isLoading" />
           </div>
         </label>
       </fieldset>
       <fieldset class="css-a85r1y-FormSignUp">
-        <label :for="`intro-user_email-${randomID}`"  class="css-ofdml2-labelStyle"
-          ><span class="css-93ekd2-Label"
-            ><span class="css-u1kbnq-Label"
-              ><span class="css-1nnvhqq-baseStyle-textStyle-textStyle"
-                >Địa chỉ email</span
-              ></span
-            ></span
-          >
+        <label :for="`intro-user_email-${randomID}`"
+          class="css-ofdml2-labelStyle"><span
+            class="css-93ekd2-Label"><span
+              class="css-u1kbnq-Label"><span
+                class="css-1nnvhqq-baseStyle-textStyle-textStyle">Địa
+                chỉ email</span></span></span>
           <div class="css-1pesyxn-inputElement">
-            <input
-              autocomplete="new-password"
+            <input autocomplete="new-password"
               class="css-o6y3vg-inputSize-baseFormStyle-inputStyle-getInputStyle-getInputStyle _ar_hide_"
               :id="`intro-user_email-${randomID}`"
               name="user[email]"
               placeholder="Nhập địa chỉ email"
-              required
-              type="email"
+              required type="email"
               _ar_hide_="width:408px;height:48px;margin:0px;position:static;display:inline-block;"
               v-model="formData.email"
-              :disabled="isLoading"
-            />
+              :disabled="isLoading" />
           </div>
         </label>
       </fieldset>
       <fieldset class="css-a85r1y-FormSignUp">
-        <label :for="`intro-user_phone-${randomID}`" class="css-ofdml2-labelStyle"
-          ><span class="css-93ekd2-Label"
-            ><span class="css-u1kbnq-Label"
-              ><span class="css-1nnvhqq-baseStyle-textStyle-textStyle"
-                >Số điện thoại</span
-              ></span
-            ></span
-          >
+        <label :for="`intro-user_phone-${randomID}`"
+          class="css-ofdml2-labelStyle"><span
+            class="css-93ekd2-Label"><span
+              class="css-u1kbnq-Label"><span
+                class="css-1nnvhqq-baseStyle-textStyle-textStyle">Số
+                điện thoại</span></span></span>
           <div class="css-1pesyxn-inputElement">
-            <input
-              autocomplete="new-password"
+            <input autocomplete="new-password"
               class="css-o6y3vg-inputSize-baseFormStyle-inputStyle-getInputStyle-getInputStyle _ar_hide_"
               :id="`intro-user_phone-${randomID}`"
               name="user[phone]"
               placeholder="Nhập số điện thoại"
-              required
-              type="text"
+              required type="text"
               _ar_hide_="width:408px;height:48px;margin:0px;position:static;display:inline-block;"
               v-model="formData.phone"
-              :disabled="isLoading"
-            />
+              :disabled="isLoading" />
           </div>
         </label>
       </fieldset>
-      <button class="css-v9clva-FormSignUp" type="submit">
+      <button class="css-v9clva-FormSignUp"
+        type="submit">
         <span class="css-u8ltki-ButtonInternal">
-          <span v-if="!isLoading">Đăng ký học thử</span>
+          <span v-if="!isLoading">Đăng ký
+            ngay</span>
           <div v-else class="lds-dual-ring"></div>
         </span>
       </button>
     </form>
-    
+
   </div>
 </template>
 <style scoped>
@@ -147,6 +134,7 @@ export default {
   height: 100vh;
   width: 100vw;
 }
+
 .modal--success-wrap {
   border-radius: 1rem;
   text-align: center;
@@ -154,15 +142,18 @@ export default {
   background: #ffffff;
   overflow: hidden;
 }
+
 .modal--success-icon {
   padding-top: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .modal--success-content {
   padding: 1rem;
 }
+
 .btn--close {
   border-radius: 8px;
   width: 86px;
@@ -172,16 +163,19 @@ export default {
   margin-top: 24px;
   cursor: pointer;
 }
+
 .thanks {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 8px;
 }
+
 .lds-dual-ring {
   display: inline-block;
   width: 24px;
   height: 24px;
 }
+
 .lds-dual-ring:after {
   content: " ";
   display: block;
@@ -192,14 +186,17 @@ export default {
   border-color: #fff transparent #fff transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
+
 @keyframes lds-dual-ring {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+
 h1,
 h2,
 p {
@@ -219,7 +216,7 @@ button {
 }
 
 button,
-button > span {
+button>span {
   font-family: inherit;
 }
 
@@ -243,7 +240,8 @@ button > span {
   }
 }
 
-@media (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
   .ie-vsWrapper {
     display: none !important;
   }
@@ -614,6 +612,7 @@ button > span {
     margin-right: 0;
   }
 }
+
 /*! CSS Used from: Embedded */
 .css-16nysgj-FormSignUp {
   box-sizing: border-box;
@@ -1171,7 +1170,7 @@ button > span {
   padding-top: 56px;
 }
 
-.css-66y3kd-IntroSignup > * {
+.css-66y3kd-IntroSignup>* {
   margin: 8px;
 }
 
@@ -1211,7 +1210,7 @@ button > span {
   justify-content: center;
 }
 
-.css-77vkw0-IntroSignup > svg {
+.css-77vkw0-IntroSignup>svg {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;

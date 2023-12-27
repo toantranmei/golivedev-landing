@@ -6,15 +6,20 @@
           class="css-6nprmf-TitlesAndButtonBlock">
           <div
             class="css-9frhyf-TitlesAndButtonBlock">
-            <span
-              class="css-1jccazc-ThemedText">Nâng cao kĩ năng lập trình bằng thực tiễn</span>
+            <span class="css-1jccazc-ThemedText">Tối
+              ưu hóa cho doanh nghiệp</span>
             <h2
               class="css-1p1s8vf-TitlesAndButtonBlock">
-              Buổi học dành cho ai?</h2>
+              Sản phẩm này dành cho?</h2>
             <div
               class="css-dn0kak-TitlesAndButtonBlock">
               <p class="p-margin"><span
-                  style="font-weight: 400;">GoLiveDev cung cấp khóa học, cùng phương pháp giảng dạy khác biệt, giúp cá nhân, tổ chức học tập và làm việc gần với thế giới thực hơn.</span></p>
+                  style="font-weight: 400;">GoLiveDev
+                  cung cấp phần mềm, công cụ, giúp
+                  cá nhân, tổ chức học tập và làm
+                  việc gần với doanh nghiệp nói
+                  riêng và thế giới thực nói
+                  chung.</span></p>
             </div>
           </div>
         </div>
@@ -41,8 +46,8 @@
           <div
             class="css-l7crmo-TitleParagraphButton">
             <strong
-              class="css-rj0b0x-TitleParagraphButton">Người
-              mới bắt đầu</strong>
+              class="css-rj0b0x-TitleParagraphButton">Cá
+              nhân</strong>
             <div
               class="css-nh8cqu-TitleParagraphButton">
               <p class="p-margin"><span
@@ -74,8 +79,8 @@
           <div
             class="css-l7crmo-TitleParagraphButton">
             <strong
-              class="css-rj0b0x-TitleParagraphButton">Sinh
-              viên công nghệ thông tin</strong>
+              class="css-rj0b0x-TitleParagraphButton">Doanh
+              nghiệp</strong>
             <div
               class="css-nh8cqu-TitleParagraphButton">
               <p class="p-margin"><span
@@ -110,8 +115,8 @@
           <div
             class="css-l7crmo-TitleParagraphButton">
             <strong
-              class="css-rj0b0x-TitleParagraphButton">Lập
-              trình viên mới</strong>
+              class="css-rj0b0x-TitleParagraphButton">Tổ
+              chức</strong>
             <div
               class="css-b0lalt-TitleParagraphButton">
               <p class="p-margin"><span
@@ -121,7 +126,7 @@
                   challenge students to prove they
                   are job-ready.</span></p>
             </div><a class="css-f7uz8k-ArrowLink"
-              href="/certification" target="_blank">
+              href="#" target="_blank">
               <div class="css-1qvsrif-ArrowLink">
                 More on Certification<!-- --> <svg
                   viewBox="0 0 18 18"
@@ -156,12 +161,12 @@
           <div
             class="css-l7crmo-TitleParagraphButton">
             <strong
-              class="css-rj0b0x-TitleParagraphButton">Người
-              trái ngành</strong>
+              class="css-rj0b0x-TitleParagraphButton">Trường
+              học</strong>
             <div
               class="css-nh8cqu-TitleParagraphButton">
               <p class="p-margin"><span
-                  style="font-weight: 400;">DataCamp’s
+                  style="font-weight: 400;">GoLiveDev's
                   entire learning platform is
                   in-browser. No downloads, setups,
                   or software is required—IT
